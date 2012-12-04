@@ -2,7 +2,7 @@
 
 /**
  *  2Moons
- *  Copyright (C) 2011  Slaver
+ *  Copyright (C) 2012 Jan Kröpke
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,13 +18,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package 2Moons
- * @author Slaver <slaver7@gmail.com>
- * @copyright 2009 Lucky <lucky@xgproyect.net> (XGProyecto)
- * @copyright 2011 Slaver <slaver7@gmail.com> (Fork/2Moons)
+ * @author Jan Kröpke <info@2moons.cc>
+ * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.6.1 (2011-11-19)
- * @info $Id: class.ShowResearchPage.php 2126 2012-03-11 21:11:32Z slaver7 $
- * @link http://code.google.com/p/2moons/
+ * @version 1.7.0 (2012-12-31)
+ * @info $Id: class.ShowResearchPage.php 2416 2012-11-10 00:12:51Z slaver7 $
+ * @link http://2moons.cc/
  */
 
 require_once('class.AbstractPage.php');
@@ -78,10 +77,11 @@ class ShowResearchPage extends AbstractPage
 		} else {
 			$SQL	= "UPDATE ".PLANETS." SET ";
 			
-			if(isset($costRessources[901])) { $SQL	.= $resource[901]." = ".$resource[901]." + ".$costRessources[901]." "; }
-			if(isset($costRessources[902])) { $SQL	.= $resource[902]." = ".$resource[902]." + ".$costRessources[902]." "; }
-			if(isset($costRessources[903])) { $SQL	.= $resource[903]." = ".$resource[903]." + ".$costRessources[903]." "; }
+			if(isset($costRessources[901])) { $SQL	.= $resource[901]." = ".$resource[901]." + ".$costRessources[901].", "; }
+			if(isset($costRessources[902])) { $SQL	.= $resource[902]." = ".$resource[902]." + ".$costRessources[902].", "; }
+			if(isset($costRessources[903])) { $SQL	.= $resource[903]." = ".$resource[903]." + ".$costRessources[903].", "; }
 			
+			$SQL	= substr($SQL, 0, -2);
 			$SQL	.= " WHERE `id` = ".$USER['b_tech_planet'].";";
 			
 			$GLOBALS['DATABASE']->query($SQL);
@@ -109,7 +109,7 @@ class ShowResearchPage extends AbstractPage
 					continue;
 					
 				if($ListIDArray[4] != $PLANET['id'])
-					$CPLANET		= $GLOBALS['DATABASE']->uniquequery("SELECT ".$resource[6].", ".$resource[31]." FROM ".PLANETS." WHERE `id` = ".$ListIDArray[4].";");
+					$CPLANET		= $GLOBALS['DATABASE']->getFirstRow("SELECT ".$resource[6].", ".$resource[31]." FROM ".PLANETS." WHERE `id` = ".$ListIDArray[4].";");
 				else
 					$CPLANET		= $PLANET;
 				
@@ -163,7 +163,7 @@ class ShowResearchPage extends AbstractPage
 					continue;
 					
 				if($ListIDArray[4] != $PLANET['id'])
-					$CPLANET				= $GLOBALS['DATABASE']->uniquequery("SELECT `".$resource[6]."`, `".$resource[31]."` FROM ".PLANETS." WHERE `id` = ".$ListIDArray[4].";");
+					$CPLANET				= $GLOBALS['DATABASE']->getFirstRow("SELECT `".$resource[6]."`, `".$resource[31]."` FROM ".PLANETS." WHERE `id` = ".$ListIDArray[4].";");
 				else
 					$CPLANET				= $PLANET;
 				
@@ -202,7 +202,7 @@ class ShowResearchPage extends AbstractPage
 			$ActualCount   	= 0;
 		}
 				
-		if($CONF['max_elements_tech'] != 0 && $CONF['max_elements_tech'] <= $ActualCount)
+		if(Config::get('max_elements_tech') != 0 && Config::get('max_elements_tech') <= $ActualCount)
 			return false;
 			
 		$BuildLevel					= $USER[$resource[$Element]] + 1;
@@ -357,7 +357,7 @@ class ShowResearchPage extends AbstractPage
 		$this->tplObj->assign_vars(array(
 			'ResearchList'	=> $ResearchList,
 			'IsLabinBuild'	=> !$bContinue,
-			'IsFullQueue'	=> $CONF['max_elements_tech'] == 0 || $CONF['max_elements_tech'] == count($TechQueue),
+			'IsFullQueue'	=> Config::get('max_elements_tech') == 0 || Config::get('max_elements_tech') == count($TechQueue),
 			'Queue'			=> $TechQueue,
 		));
 		

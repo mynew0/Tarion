@@ -1,1 +1,0 @@
-a:3:{s:2:"de";s:7:"Deutsch";s:2:"en";s:7:"English";s:2:"pl";s:6:"Polish";}

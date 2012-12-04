@@ -1,113 +1,44 @@
 <ul id="rules">
-
-<br> <b> <center> Gesetz steht über den Regeln der Verfassung der Republik Polen.
-
-<br> <i> Denken Sie daran, dass keiner aus unserem Team wird nicht von Ihnen verlangt werden, ein Kennwort für Ihr Konto </ i> </center> </b>
-
-
-<li>
-<h1> <center> AGB </center> </h1>
-<p>1. Jeder Spieler auf dem Server akzeptiert die Regeln und ist verpflichtet, die strikt einzuhalten, und die Anerkennung der Souveränität der Verwaltung. </p>
-<p>2. Auf der Server gilt Manieren. Fluchend und Beleidigung anderer Spieler, auf den Chat-Kanälen produziert, Verbote werden bestraft (durch Administacji) werden. Wiederholte Verstoß gegen diesen Punkt kann bestraft (perm ban) werden. </p>
-<p>3. Tarion.net ist ein kostenloses Spiel, so kann es keinen Anspruch auf die Verfügbarkeit von Spielen sein. </p>
-<p>4. Tarion.net übernimmt keine Haftung für die Nichtverfügbarkeit des Spiels, Fehler im Programm, etc. </p>
-<p>5. Wenn ein Spieler im Nachteil, die sich aus den Fehlern des Spiels, ein Software-Fehler, etc., berechtigt, an die Administratoren wenden sein wird. </p>
-<p>6. Fehler zu melden und zu verwenden, den Fehler des Spiels, unabhängig von der Ursache und Umstände des Auftretens, wird bestraft, für die Entdeckung einer ungewöhnlichen Situation, fehlende Gewissheit hinsichtlich seiner Vereinbarkeit werden, sollten Sie sich umgehend melden Sie das Problem an den Administrator, ist Unwissenheit keine Entschuldigung. </p>
-<p>7. Versteckte Fehler, Irrtümer oder manifestieren sich während des Spiels, gibt keine Ausnahmen von der allgemeinen Regel. Penalty für den Einsatz von festen Bug-Administrator. </p>
-<p>8. <b> Administratoren haben das Recht, schalten Sie das Gerät für keinen Grund, zu jeder Zeit. </b> </p>
-<p>9.. <b> Advertising anderen Servern wird bestraft (perm ban). </b> </p>
-<p>10. Identitätswechsel Mitglieder des Teams wird mit dem Ausschluss aus dem Server (perm ban) bestraft werden. </p>
-</ Li>
-<li>
-Konten <center> <h1> Spieler </center> </h1>
-<p>11. Der Exchange-Konto ist <b> VERBOTEN </b>, alle Arten von Börsen wird bestraft (Perm Bann). </p>
-<p>12. <b> Jeder Spieler kann nur ein Konto! - </b>, wenn Sie einen Link auf ein paar Leute, in welchem ​​Fall Sie die Verwaltung mitteilen, teilen müssen. Aber es ist nicht erlaubt, zwischen den Planeten Ressourcen, Flottenmanagement, usw. (perm Verbot IP) übertragen </b> </p>
-<p>13. Jeder Spieler ist verantwortlich für Ihr Konto. Die Verwaltung ist nicht verantwortlich für die Umwandlung, Einbruch und gemeinsame Konten. Jeder von euch muss für sich selbst sorgen ausreichende Sicherheiten Konto. </p>
-<p>14. Es ist verboten, den Namen, Spitznamen Namen der Planeten und stimmte für anstößig, geschmacklos, sexuell suggestiven. Diese Namen, zusammen mit den Konten werden ohne Ankündigung gelöscht werden. </p>
-<p>15. <b>-Administration hat keine Verpflichtung, die Konten wieder her, egal in welcher Situation. </b> </p>
-<p>16. Diskriminierung, Rassismus, Antisemitismus, wird Gewalt, Belästigung, Anstiftung zur Gewalt oder Vandalismus durch den Administrator bestraft werden. </p>
-<p>17. <b> verspotten, Missbrauch, Diskriminierung der Verwaltung wird bestraft (Strafe Betrag unter Administration bestimmt). </b> </p>
-<p>18. Zuweisen <b> Ersatz-Konto! - </b>
-In einem anderen Fall ist es erlaubt, jemanden zu haben, ersetzen Sie, wenn Sie durch die Anmeldung in Ihrem Konto zu spielen. Bevor sie Cie zasąpi das Spiel Ihnen die Administration (PW) warnen sollte, für den Zeitpunkt der Ersatz, aber das sollte nicht länger als 48 Stunden. Aber was den Zugang zu Ihrem Konto haben, können Sie verlieren. Verwaltung ist nicht verantwortlich für verloren Konten in der Weise!
-Wenn Sie jemanden zu ersetzen, kann diese Person nicht senden Angriffe! Und bauen können Einheiten und neue Gebäude. Es kann auch eine ganze Flotte von Angriff (fleetsave). </p>
-<p>19. <b> Konto zasępstwo -! </b>, wenn die Zeit Ihrer Abwesenheit ist länger, es wird empfohlen, den Urlaub Modus im Optionsmenü aktivieren (das dauert mindestens 3 Tage) </p>
-</ Li>
-<li>
-<h1> <center> Regeln </center> </h1>
-<p>20. Pushing <b> - </b> werden als Schieben Sie alle Transport von Rohstoffen aus dem Spieler mit weniger Punkten zu einem stärkeren Spieler zu verstehen. Dies gilt auch für Erpressung. Jede Verbringung von Rohstoffen aus schwächeren zu stärkeren Spieler, wird nicht ein Handels-und / oder nicht durch einen stärkeren Spieler in 24 Stunden zurück, als drängen verstanden werden. Pushing beginnt mit der Absendung von mehr als 500 Einheiten. Jeder Versuch, diese Regel zu umgehen, sind nicht erlaubt, und der Einsatz von Risiko (perm ban)! </p>
-<p>21. Pushing im Bündnis <b> - </b> <u> erlaubt </u> wird nur, wenn die Sendung gerechtfertigt ist, zB wenn ein Spieler seine Flotte verloren. Es ist vor dem Versand der Frachten der Administrator, der die Situation zu untersuchen benachrichtigt. Sollte durch den Nachweis in Form eines Berichts des Krieges unterstützt werden, etc. </p>
-<p>22. <b> Darlehen Ressourcen - </b> ist erlaubt <u> </u> nur, wenn der Spieler wurde auf den Transport geschickt wird die entsprechende Menge an Rohmaterial innerhalb von 24 Stunden Im Falle der Benachrichtigung versandt, die der Spieler von dem Scheitern der Rechnung schicken, ist blockiert. </p>
-<p>23. Der Handel zwischen den Spielern sollte innerhalb von 24 Stunden nach Absenden des ersten Transportes von einem der Spieler abgeschlossen sein. Zahlt sich aus seinen Handelsverpflichtungen in Form von Urlaub auf PZ sammeln ist nicht erlaubt. Wenn die Spieler nehmen die entsprechenden Handel Rohstoffe muss eine Flotte geschickt werden, um die. </p> Transport
-<p>24. Alle Rohstoffe zu einem Zeitpunkt, wenn ein Spieler sendet er schwächer als die anderen sollten sofort zu ihm zurück. Diese Tatsache sollte auch dies der Administration. </p>
-<p>25. Unzulässige die Speicherung von großen Mengen von Rohstoffen auf dem Planeten für die Razzia vom selben Spieler viele Male, wenn dieser Zustand ist zielgerichtet. </p>
-<p>26. Es ist verboten, um die Lagerung von Rohstoffen auf Planeten inaktive Spieler zu besitzen. </p>
-<p>27. <b> Moonmaking </b> ist erlaubt <u> </u>, aber kann nicht stattfinden zwischen den beiden Accounts auf dem gleichen IP-Adresse. </p>
-<p>28. <b> Bashing - </b> verhindert zu häufige Angriffe auf ein Konto vom selben Spieler. Mehr als 4 Attacken im Laufe des Tages KONTO <b> (von 0:00 bis 24:00) </b> wird als Bash definiert werden und ist nicht akzeptabel <u> </u>. Die Zerstörung wird als ein Angriff betrachtet. Konten inaktiv über 7 Tage, mit dem Brief heißt <b> und </b> oder <b> l </b> in der Galaxie, diese Regel gilt nicht, <u> </u>. </p>
-<p>29. <b> Bash gilt nicht für: </b>
-<li>
--. Kills Spionagesonden <br/>
--. Konten inaktiv <br/>
--. Offensiv-Flotten, die völlig zerstört wurden <br/>
-- Kämpfe zwischen Mitgliedern der Allianzen, die in einem Zustand des Krieges sind </b>.
-</ Li> </p>
-<p>30. Krieg darf von den Führern der Allianzen vereinbart werden und erklärte auf dem Forum, und klar beschreibt die Grundsätze, für die die beiden Allianzen gelten:
-<li>
-- Der Krieg ist vorbei zumindest nach 24 Stunden nach Beginn, es sei denn, die Administaracja bestätigen einen längeren Kurs <br/>.
-- Keine Begrenzung Angriffe auf Angehörige einer feindlichen Allianz <br/>.
--. Nach dem Krieg, der kategorische Verbot von Angriffen (außer Angriffe vor dem Ende des Krieges, die im Prozess gesendet wird) </ li> </p>
-<p>31. <b> Raketenangriff: </b>
-<br> den vergangenen Tag (24h) auf der einen Planeten abgeben können bis zu 1.000 Raketen! Die Strafe ist <b> Administrator </b> </p>
-<p>32. Für einen Moment, bevor die Flotte an die Verteidiger, wird es verboten, mehrere Spyware scannt seine Planetensonden zu Server-Last. Diese Regel ist für die Spieler durch schnelle Scans in sehr kurzen Abständen zu schützen. </p>
-<p>33. Jeder Versuch, die Regeln zum Schieben oder Bashing-u-u umgehen erwähnt in Punkten. 20-29, wird von der Verwaltung berücksichtigt werden. </p>
-<p>34. Die Meldungen im Spiel ist nicht nur die Korrespondenz-System einfacher für die Spieler. Verwaltung aufgrund der Natur Seite hat das Recht, die Informationen in das System zu überprüfen. </p>
-</p>
-</ Li>
-<li>
-Erpressung und <h1> <center> Bugusing </center> </h1>
-<p>35. Die Verantwortung von jedem Spieler Spiels ist es, Fehler (Bugs, Tippfehler, unerlaubter Handlung) auf dem Forum oder dem Betreiber des Spiels (der Administrator) zu melden. </p>
-<p>36. Umstellung von Konten ist nicht gestattet. </p>
-<p>37. Wenn Sie der Spieler hat keinen Anspruch auf das vorherige Konto verantwortlich zu machen. </p>
-<p>38. <b> Bugusing - </b> verstanden werden alle Kontobewegungen und darüber hinaus zu versuchen, als Folge der Fehlercode und die Spielmechanik zu profitieren. Versuche, bekannte Schwachstellen und angebliche Security Testing nutzen gilt dasselbe wie Bugusing strafbar sein. Versuche, die Spiel-Dateien geben Sie unterliegen Verwaltungsstrafen (perm Verbot, IP). </p>
-<p>39. Jeder Versuch, den Server verlangsamen sind nicht gestattet. </p>
-<p>40. Erkannte Fehler, die das Spiel auf dem Konto zu verhindern müssen gemeldet Verwaltung werden. Fehler im Spiel und Tippfehler, und Fehler haben keinen signifikanten Einfluss auf das Spiel sollte im Forum gemeldet werden. </p>
-<p>41. Fehler werden von den Staaten des Spiels und Fehler in der Bedienung, die richtig eingesetzt kann der Spieler in seiner Entwicklung unterstützen oder verhindern Aktion auf Ihrem Konto. </p> verstanden
-<p>42. Falls Sie die Rohstoff ergeben, sind verboten. Die Situation sollte dem Administrator gemeldet werden. </p>
-<p>43. <b> Rücksendungen müssen innerhalb von 72 Stunden ab dem Zeitpunkt der Fehler aufgetreten ist, in anderen Fällen gemeldet werden, ein Fall ist verjährt und die Verwaltung nicht zu tun haben. </b> </p>
-<p>44. Bedrohungen von Sachwerten oder Personen sind ebenfalls untersagt. </p>
-<p>45. Verboten sind alle Handlungen, die als Mitglieder der Verwaltung des Spiels darstellen, oder um auf das Wissen von einem der Mitglieder der Verwaltung Tarion.net verlassen. </p> Ziel
-</ Li>
-<li>
-<h1> <center> aus dem Spiel </center> </h1>
-<p>46. Denken Sie daran, es ist nur ein Spiel, in die reale Welt der Emotionen zu bewegen, entweder per Chat oder Forum, jede grośby, Name-calling, etc. .. etc. .. ist nicht erlaubt! Kultur vor allem nicht den Spaß verderben anderen hamskim Verhalten </p>
-</ Li>
-<li>
-<h1> <center> Spam </center> </h1>
-<p>47. Spamming ist, egal in welcher Form wie untersagt:
-<li> - Chat <br/>
-- Forum <br/>
-- Private Nachrichten </ li> </p>
-<p>48. Jemand Spamming, benachrichtigen Sie bitte die Administration! </p>
-</ Li>
-<li>
-<h1> <center> Zusammenfassung </center> </h1>
-<p>49. Regeln gelten für jeden Nutzer </p>
-<p>50. Belegschaft ist eine Wohltätigkeitsorganisation, es keine dedizierten Zeit für keine Bezahlung bekommt, so sicher sein, ihm mit Respekt zu fragen. </p>
-<p>51. Die Teammitglieder werden zu Zeit aus. Dem Titel </p>
-<p>52. Team-Mitglieder haben das Recht, nicht um die Antwort auf jede Frage zu kennen. </p>
-<p>53. Die Mitglieder des Teams sind auch Menschen machen Fehler, aber es ist nicht sofort ein Grund, alle ihre Handlungen zu verweigern. </p>
-<p>54. Sätze wie "Hey you", "hono hier", "The View" werden nicht von jedermann begrüßen, darunter Mitglieder des Teams, verhalten sich ihnen gegenüber mit allem Respekt -, dass man gut gespielt - freiwillig ihre eigene Zeit, sie sind nicht Ihre Mitarbeiter, was sie dir gesagt zu ihm. </p>
-<p>55. PM im Forum: Der Kontakt mit Mitgliedern des Teams kann durch öffentliche Mittel erfolgen. Team-Mitglieder sind nicht verpflichtet, andere Formen des Kontakts zu liefern. </p>
-<p>56. Administrator Position als Superintendent Grund erhält keine Gratifikation oder Vermögensschäden oder "Erleichterung des Spiels", Vetternwirtschaft und nicht fair an den Rest der Spieler wird bestraft. </p>
-<p>57. Administrator-Funktion wurde nicht geschaffen für private Gespräche und Spaß! </p>
-<p>58. Administrator gelten die gleichen Regeln, wie der Spieler gelten, aber in der Lage sein, ihren Pflichten nachzukommen, so ist jeder Beschwerde in Richtung der Administrator überlegen Leiter Admin. </p>
-<p>59. Administrator, in Ausnahmefällen, wenn ein Verstoß gegen die Regeln dopatrzy, können polnische Gesetz eine beliebige Anzahl von Konten im Spiel / Forum von Ihrer IP-Adresse blockieren, aus welchem ​​Grund. </p>
-<p>60. Administratoren Entscheidungen sind endgültig und unwiderruflich. </b> </p>
-</li>
-
-<center> daran erinnern, dass der Server Privateigentum ist und der Besitzer des Satzes ist endgültig und unwiderruflich.
-<br> daran erinnern, dass Vorschriften ändern können, empfehlen wir die Kontrolle zurück hier so oft wie möglich. Zuletzt aktualisiert am 2012.06.08.
-<br>
-<br>
-Verordnungen durch die Verwaltung Tarion.net vorbereitet. Alle Rechte umgekehrt (C) 2012 </b> </center>
-
+	<li>
+		<h1>1. Accounts</h1>
+		<p>Der Besitzer eines Accounts ist immer der Inhaber der festen E-mail Adresse. Ein Account darf ausschließlich alleine gespielt werden. Eine Ausnahme bildet nur das Sitten. Sollte es notwendig werden, dass der Account eines Anderen überwacht oder in den Urlaubsmodus gesetzt werden muss, so ist der zuständige Operator vorher zu informieren und dessen Genehmigung einzuholen. Für kurzfristiges Sitten unter 12 Stunden reicht eine Meldung an den Operator. Beim Sitten sind sämtliche Flottenbewegungen verboten, lediglich das Saven der Flotte auf Koordinaten des Gesitteten und das Verbauen der Rohstoffe auf dem Planeten, auf dem sie liegen, ist erlaubt. Ein Account darf für höchstens 72h gesittet werden. Bei Ausnahmen muss die Erlaubniss eines Operators vorliegen. Die Weitergabe eines Accounts darf max. alle 3 Monate und ausschliesslich unentgeltlich erfolgen. Ausnamhen beim Operator melden.</p>
+	</li>
+	<li>
+		<h1>2. Multiaccounts</h1>
+		<p>Es ist jedem Spieler nur erlaubt, einen Account pro Universum zu spielen. Falls zwei oder mehrere Accounts üblicherweise, gelegentlich oder dauerhaft vom selben Internetanschluss aus gespielt werden (z.B. Schulen, Universitäten oder Internetcafés), so müssen sie, dies bereits im Vorfeld einem Admin mitzuteilen. In solchen Fällen ist den betreffenden Accounts jeglicher Flottenkontakt untersagt, während sie den selben Internetanschluss nutzen. Ebenso sind weitere Gemeinsamkeiten untersagt.</p>
+	</li>
+	<li>
+		<h1>3. Pushen</h1>
+		<p>Pushen ist grundsätzlich verboten. Als Pushing werden alle Ressourcen-Lieferungen ohne angemessene Gegenleistung von punktschwächeren Accounts an punktstärkere Accounts gesehen. Ausnahmen müssen im Vorfeld vom Operator genehmigt werden. Eine fehlende Genehmigung kann eine Sperre wegen Pushens nach sich ziehen. Ein Handel muss innerhalb 24 Stunden abgeschlossen oder bei einem Operator angemeldet sein.</p>
+	</li>
+	<li>
+		<h1>4. Bashen</h1>
+		<p>Mehr als 5 Angriffe innerhalb von 24 Stunden auf den gleichen Planeten zählen als Bashen und sind verboten - der Mond zählt als eigenständiger Planet. Angriffe mit Spiosonden oder Interplanetarraketen werden dabei nicht gezählt.</p>
+		<p>Die Bashregel gilt ausschließlich für aktive Spieler. Befinden sich die Parteien im Krieg, so sind weitere Angriffe erlaubt. Der Krieg muss mindestens 24 Stunden vor weiteren Angriffen im Forum erklärt werden (im Thema der Ankündigung müssen beide Allianzen bzw. der Name des kriegserklärenden Einzelspielers in korrekter Schreibweise genannt werden). Eine Kriegserklärung kann ausschließlich an Allianzen gerichtet werden, wobei die Kriegserklärung durch eine Allianz oder eine Einzelperson erfolgen kann.</p>
+		<p>Eine Annahme des Krieges ist nicht erforderlich. Kriege, die offensichtlich nur der massiven Umgehung der Bashregel dienen, sind verboten. Dies zu beurteilen obliegt den zuständigen Moderatoren und Operatoren.</p>
+	</li>
+	<li>
+		<h1>5. Irak-Angriffe</h1>
+		<p>Es sind nur 1000 Irak-Angriffe pro 24 Stunden erlaubt. Die Anzahl der Raketen pro Angriff ist unabhängig.</p>
+	</li>
+	<li>
+		<h1>6. Bugusing</h1>
+		<p>Bugs und/oder Fehler in der Programmierung auszunutzen ist verboten. Erkannte Bugs sollten so schnell wie möglich per Post im Bugforum, IRC, Email oder ICQ gemeldet werden. Cheaten ist auch verboten.</p>
+	</li>
+	<li>
+		<h1>7. Sprache im Spiel</h1>
+		<p>In allen entsprechenden Universen ist Deutsch/Englisch die offizielle Sprache im Spiel. Verstöße können mit einer Sperrung des Accounts geahndet werden. Fremdsprachliche Ingame- Nachrichten/ Allypages können unter Vorbehalt zu einer Sperrung des Accounts führen.</p>
+	</li>
+	<li>
+		<h1>8. Bedrohungen/Beleidigungen</h1>
+		<p>RL Erpressungen und -Bedrohungen führen zum Ausschluß aus einem oder allen Spiel Bereichen. Als Real-Life-Erpressungen und -bedrohungen werden Ingamenachrichten, Forenbeiträge, IRC-Dialoge in öffentlichen Channels und ICQ-Dialoge gewertet, die eindeutige Absichten signalisieren eine Person ausfindig zu machen und ihr oder einer nahestehenden dritten Person Schaden zuzufügen.</p>
+	</li>
+	<li>
+		<h1>9. Spam und Erotik</h1>
+		<p>Spammen und Fremdwerbung ist verboten.Jeweilige Form von Erotik und Pornografischen Darstellungen ist verboten. Und wird mit einer Universums weiten und Lebenslangen Sperrung geandet!</p>
+	</li>
+	<li>
+		<h1>10. Die Regeln</h1>
+		<p>Die Regeln können sich ändern und jeder User ist verpflichtet sich ständig über den Stand zu Informieren!</p>
+	</li>
 </ul>

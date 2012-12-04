@@ -2,7 +2,7 @@
 
 /**
  *  2Moons
- *  Copyright (C) 2011  Slaver
+ *  Copyright (C) 2012 Jan Kröpke
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,13 +18,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package 2Moons
- * @author Slaver <slaver7@gmail.com>
- * @copyright 2009 Lucky <lucky@xgproyect.net> (XGProyecto)
- * @copyright 2011 Slaver <slaver7@gmail.com> (Fork/2Moons)
+ * @author Jan Kröpke <info@2moons.cc>
+ * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.6.1 (2011-11-19)
- * @info $Id: class.ShowFleetAjaxPage.php 2207 2012-04-22 21:28:55Z slaver7 $
- * @link http://code.google.com/p/2moons/
+ * @version 1.7.0 (2012-12-31)
+ * @info $Id: class.ShowFleetAjaxPage.php 2416 2012-11-10 00:12:51Z slaver7 $
+ * @link http://2moons.cc/
  */
 
 require_once(ROOT_PATH . 'includes/classes/class.FleetFunctions.php');
@@ -50,11 +49,8 @@ class ShowFleetAjaxPage extends AbstractPage
 	
 	public function show()
 	{
-		global $USER, $PLANET, $resource, $LNG, $CONF;
+		global $USER, $PLANET, $resource, $LNG, $CONF, $pricelist;
 		
-		$UserRecycles   = $PLANET[$resource[209]];
-		$UserSpyProbes  = $PLANET[$resource[210]];
-		$UserGRecycles  = $PLANET[$resource[219]];
 		$UserDeuterium  = $PLANET['deuterium'];
 		
 		$planetID 		= HTTP::_GP('planetID', 0);
@@ -64,9 +60,6 @@ class ShowFleetAjaxPage extends AbstractPage
 		$maxSlots		= FleetFunctions::GetMaxFleetSlots($USER);
 		
 		$this->returnData['slots']		= $activeSlots;
-		$this->returnData['ship'][209]	= $UserRecycles;
-		$this->returnData['ship'][210]	= $UserSpyProbes;
-		$this->returnData['ship'][219]	= $UserGRecycles;
 		
 		if (IsVacationMode($USER)) {
 			$this->sendData(620, $LNG['fa_vacation_mode_current']);
@@ -89,43 +82,58 @@ class ShowFleetAjaxPage extends AbstractPage
 					$this->sendData(699, $LNG['sys_module_inactive']);
 				}
 				
-				$SpyProbes	= (int) $_REQUEST['ship'][210];
-				$SpyProbes	= min($SpyProbes, $UserSpyProbes);
+				$ships	= min($USER['spio_anz'], $PLANET[$resource[210]]);
 				
-				if(empty($SpyProbes)) {
+				if(empty($ships)) {
 					$this->sendData(611, $LNG['fa_no_spios']);
 				}
-				$fleetArray = array(210 => $SpyProbes);
+				
+				$fleetArray = array(210 => $ships);
+				$this->returnData['ships'][210]	= $PLANET[$resource[210]] - $ships;
 			break;
 			case 8:
 				if(!isModulAvalible(MODULE_MISSION_RECYCLE)) {
 					$this->sendData(699, $LNG['sys_module_inactive']);
 				}
 				
-				$GRecycles	= (int) $_REQUEST['ship'][219];
-				$GRecycles	= min($GRecycles, $UserGRecycles);
+				$totalDebris	= $GLOBALS['DATABASE']->getFirstCell("SELECT der_metal + der_crystal FROM ".PLANETS." WHERE id = ".$planetID.";");
+				$usedDebris		= 0;
 				
-				$Recycles	= (int) $_REQUEST['ship'][209];
-				$Recycles	= min($Recycles, $UserRecycles);
+				$recElementIDs	= array(219, 209);
 				
-				if(empty($Recycles) && empty($GRecycles)) {
+				$fleetArray		= array();
+				
+				foreach($recElementIDs as $elementID)
+				{
+					$shipsNeed 		= min(ceil($totalDebris / $pricelist[$elementID]['capacity']), $PLANET[$resource[$elementID]]);
+					$totalDebris	-= ($shipsNeed * $pricelist[$elementID]['capacity']);
+					
+					$fleetArray[$elementID]	= $shipsNeed;
+					$this->returnData['ships'][$elementID]	= $PLANET[$resource[$elementID]] - $shipsNeed;
+					
+					if($totalDebris <= 0)
+					{
+						break;
+					}
+				}
+				
+				if(empty($fleetArray))
+				{
 					$this->sendData(611, $LNG['fa_no_recyclers']);
 				}
-					
-				$fleetArray = array(209 => $Recycles, 219 => $GRecycles);
 				break;
 			default:
 				$this->sendData(610, $LNG['fa_not_enough_probes']);
 			break;
 		}
 		
-		$fleetArray	= array_filter($fleetArray);
+		$fleetArray						= array_filter($fleetArray);
 		
 		if(empty($fleetArray)) {
 			$this->sendData(610, $LNG['fa_not_enough_probes']);
 		}
 		
-		$targetData	= $GLOBALS['DATABASE']->uniquequery("SELECT planet.id_owner as id_owner, 
+		$targetData	= $GLOBALS['DATABASE']->getFirstRow("SELECT planet.id_owner as id_owner, 
 										planet.galaxy as galaxy, 
 										planet.system as system, 
 										planet.planet as planet,
@@ -141,7 +149,7 @@ class ShowFleetAjaxPage extends AbstractPage
 		
 		if($targetMission == 6)
 		{
-			if($CONF['adm_attack'] == 1 && $targetData['authattack'] > $USER['authlevel']) {
+			if(Config::get('adm_attack') == 1 && $targetData['authattack'] > $USER['authlevel']) {
 				$this->sendData(619, $LNG['fa_action_not_allowed']);
 			}
 			
@@ -169,7 +177,6 @@ class ShowFleetAjaxPage extends AbstractPage
 		$SpeedAllMin		= FleetFunctions::GetFleetMaxSpeed($fleetArray, $USER);
 		$Duration			= FleetFunctions::GetMissionDuration(10, $SpeedAllMin, $Distance, $SpeedFactor, $USER);
 		$consumption		= FleetFunctions::GetFleetConsumption($fleetArray, $Duration, $Distance, $SpeedAllMin, $USER, $SpeedFactor);
-		$Duration			= $Duration * (1 - $USER['factor']['FlyTime']);
 
 		$UserDeuterium   	-= $consumption;
 

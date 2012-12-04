@@ -23,12 +23,12 @@
  * @copyright 2011 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.5 (2011-07-31)
- * @info $Id: dbtables.php 2246 2012-06-16 16:05:09Z slaver7 $
- * @link http://code.google.com/p/2moons/
+ * @info $Id: dbtables.php 2416 2012-11-10 00:12:51Z slaver7 $
+ * @link http://2moons.cc/
  */
 
 // Global configkeys
-$BASICCONFIG	= array('VERSION', 'game_name', 'stat', 'stat_level', 'stat_last_update', 'stat_settings', 'stat_update_time', 'stat_last_db_update', 'stats_fly_lock', 'cron_lock', 'ts_modon', 'ts_server', 'ts_tcpport', 'ts_udpport', 'ts_timeout', 'ts_version', 'ts_cron_last', 'ts_cron_interval', 'ts_login', 'ts_password', 'capaktiv', 'cappublic', 'capprivate', 'mail_active', 'mail_use', 'smtp_host', 'smtp_port', 'smtp_user', 'smtp_pass', 'smtp_ssl', 'smtp_sendmail', 'smail_path', 'fb_on', 'fb_apikey', 'fb_skey', 'ga_active', 'ga_key', 'chat_closed', 'chat_allowchan', 'chat_allowmes', 'chat_allowdelmes', 'chat_logmessage', 'chat_nickchange', 'chat_botname', 'chat_channelname', 'chat_socket_active', 'chat_socket_host', 'chat_socket_ip', 'chat_socket_port', 'chat_socket_chatid', 'ttf_file', 'sendmail_inactive', 'del_user_sendmail', 'del_user_automatic', 'del_oldstuff', 'del_user_manually', 'ref_max_referals');
+$BASICCONFIG	= array('VERSION', 'game_name', 'stat', 'stat_level', 'stat_last_update', 'stat_settings', 'stat_update_time', 'stat_last_db_update', 'stats_fly_lock', 'cron_lock', 'ts_modon', 'ts_server', 'ts_tcpport', 'ts_udpport', 'ts_timeout', 'ts_version', 'ts_cron_last', 'ts_cron_interval', 'ts_login', 'ts_password', 'capaktiv', 'cappublic', 'capprivate', 'mail_active', 'mail_use', 'smtp_host', 'smtp_port', 'smtp_user', 'smtp_pass', 'smtp_ssl', 'smtp_sendmail', 'smail_path', 'fb_on', 'fb_apikey', 'fb_skey', 'ga_active', 'ga_key', 'chat_closed', 'chat_allowchan', 'chat_allowmes', 'chat_allowdelmes', 'chat_logmessage', 'chat_nickchange', 'chat_botname', 'chat_channelname', 'chat_socket_active', 'chat_socket_host', 'chat_socket_ip', 'chat_socket_port', 'chat_socket_chatid', 'ttf_file', 'sendmail_inactive', 'del_user_sendmail', 'del_user_automatic', 'del_oldstuff', 'del_user_manually', 'ref_max_referals', 'disclamerAddress','disclamerPhone','disclamerMail','disclamerNotice');
  
 // Data Tabells
 define('DB_NAME'			, $database['databasename']);
@@ -46,11 +46,13 @@ define('CHAT_INV'			, DB_PREFIX.'chat_invitations');
 define('CHAT_MES'			, DB_PREFIX.'chat_messages');
 define('CHAT_ON'			, DB_PREFIX.'chat_online');
 define('CONFIG'				, DB_PREFIX.'config');
+define('CRONJOBS'			, DB_PREFIX.'cronjobs');
 define('DIPLO'				, DB_PREFIX.'diplo');
 define('FLEETS'				, DB_PREFIX.'fleets');
 define('FLEETS_EVENT'		, DB_PREFIX.'fleet_event');
 define('LOG'				, DB_PREFIX.'log');
 define('LOG_FLEETS'			, DB_PREFIX.'log_fleets');
+define('LOSTPASSWORD'		, DB_PREFIX.'lostpassword');
 define('NEWS'				, DB_PREFIX.'news');
 define('NOTES'				, DB_PREFIX.'notes');
 define('MESSAGES'			, DB_PREFIX.'messages');

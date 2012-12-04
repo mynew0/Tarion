@@ -23,7 +23,7 @@
  * @copyright 2011 Slaver <slaver7@gmail.com> (Fork/2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.6.1 (2011-11-19)
- * @info $Id: class.template.php 2273 2012-06-30 17:35:36Z slaver7 $
+ * @info $Id: class.template.php 2435 2012-11-17 15:12:16Z slaver7 $
  * @link http://code.google.com/p/2moons/
  */
 
@@ -44,7 +44,7 @@ class template extends Smarty
 	function smartySettings()
 	{	
 		$this->force_compile 			= false;
-		$this->caching 					= false; #Set true for production!
+		$this->caching 					= true; #Set true for production!
 		$this->merge_compiled_includes	= true;
 		$this->compile_check			= true; #Set false for production!
 		$this->php_handling				= Smarty::PHP_REMOVE;
@@ -94,12 +94,15 @@ class template extends Smarty
 		
 		$this->assign_vars(array(
 			'scripts'			=> $this->script,
-			'title'				=> $CONF['game_name'].' - '.$LNG['adm_cp_title'],
+			'title'				=> Config::get('game_name').' - '.$LNG['adm_cp_title'],
 			'fcm_info'			=> $LNG['fcm_info'],
             'lang'    			=> $LANG->getUser(),
-			'REV'				=> substr($CONF['VERSION'], -4),
+			'REV'				=> substr(Config::get('VERSION'), -4),
 			'date'				=> explode("|", date('Y\|n\|j\|G\|i\|s\|Z', TIMESTAMP)),
 			'Offset'			=> $dateTimeUser->getOffset() - $dateTimeServer->getOffset(),
+			'VERSION'			=> Config::get('VERSION'),
+			'dpath'				=> 'styles/theme/gow/',
+			'bodyclass'			=> 'full'
 		));
 	}
 	
@@ -124,7 +127,6 @@ class template extends Smarty
 			'VERSION'			=> $CONF['VERSION'],
 			'REV'				=> substr($CONF['VERSION'], -4),
 			'langs'				=> json_encode(Language::getAllowedLangs(false)),
-			'htaccess'			=> (int) (UNIS_HTACCESS === true),
 		));
 	}
 	
@@ -160,6 +162,14 @@ class template extends Smarty
 		
 		parent::display($file);
 	}
+	
+	public function display($file)
+	{
+		global $LANG;
+		$this->compile_id	= $LANG->getUser();
+		parent::display($file);
+	}
+	
 	
 	public function gotoside($dest, $time = 3)
 	{

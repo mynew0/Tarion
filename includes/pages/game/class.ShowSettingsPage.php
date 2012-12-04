@@ -2,7 +2,7 @@
 
 /**
  *  2Moons
- *  Copyright (C) 2011  Slaver
+ *  Copyright (C) 2012 Jan Kröpke
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,13 +18,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package 2Moons
- * @author Slaver <slaver7@gmail.com>
- * @copyright 2009 Lucky <lucky@xgproyect.net> (XGProyecto)
- * @copyright 2011 Slaver <slaver7@gmail.com> (Fork/2Moons)
+ * @author Jan Kröpke <info@2moons.cc>
+ * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.6.1 (2011-11-19)
- * @info $Id: class.ShowSettingsPage.php 2265 2012-06-28 19:58:44Z slaver7 $
- * @link http://code.google.com/p/2moons/
+ * @version 1.7.0 (2012-12-31)
+ * @info $Id: class.ShowSettingsPage.php 2460 2012-11-24 15:58:14Z slaver7 $
+ * @link http://2moons.cc/
  */
 
 class ShowSettingsPage extends AbstractPage
@@ -80,12 +79,13 @@ class ShowSettingsPage extends AbstractPage
 				'timezone'			=> $USER['timezone'],
 				'delete'			=> $USER['db_deaktjava'],
 				'queueMessages'		=> $USER['hof'],
+				'spyMessagesMode'	=> $USER['spyMessagesMode'],
 				'galaxySpy' 		=> $USER['settings_esp'],
 				'galaxyBuddyList' 	=> $USER['settings_bud'],
 				'galaxyMissle' 		=> $USER['settings_mis'],
 				'galaxyMessage' 	=> $USER['settings_wri'],
 				'userid'		 	=> $USER['id'],
-				'ref_active'		=> $CONF['ref_active'],
+				'ref_active'		=> Config::get('ref_active'),
 			));
 			
 			$this->display('page.settings.default.tpl');
@@ -98,7 +98,12 @@ class ShowSettingsPage extends AbstractPage
 
 		if(!empty($USER['b_tech']) || !empty($PLANET['b_building']) || !empty($PLANET['b_hangar']))
 			return false;
-					
+		
+
+		$fleets = $GLOBALS['DATABASE']->getFirstCell("SELECT COUNT(*) FROM ".FLEETS." WHERE `fleet_owner` = ".$USER['id'].";");
+		if($fleets != 0)
+			return false;
+						
 		$query = $GLOBALS['DATABASE']->query("SELECT * FROM ".PLANETS." WHERE id_owner = ".$USER['id']." AND id != ".$PLANET['id']." AND destruyed = 0;");
 		
 		while($CPLANET = $GLOBALS['DATABASE']->fetch_array($query))
@@ -187,7 +192,8 @@ class ShowSettingsPage extends AbstractPage
 		$theme				= HTTP::_GP('theme', $THEME->getThemeName());	
 	
 		$queueMessages		= HTTP::_GP('queueMessages', 0);	
-		
+		$spyMessagesMode	= HTTP::_GP('spyMessagesMode', 0);
+
 		$spycount			= HTTP::_GP('spycount', 1);	
 		$fleetactions		= HTTP::_GP('fleetactions', 5);	
 		
@@ -217,7 +223,7 @@ class ShowSettingsPage extends AbstractPage
 			} elseif($USER['uctime'] >= TIMESTAMP - USERNAME_CHANGETIME) {
 				$this->printMessage($LNG['op_change_name_pro_week']);
 			} else {
-				$Count 	= $GLOBALS['DATABASE']->countquery("SELECT (SELECT COUNT(*) FROM ".USERS." WHERE `universe` = ".$UNI." AND `username` = '".$GLOBALS['DATABASE']->sql_escape($username)."') + (SELECT COUNT(*) FROM ".USERS_VALID." WHERE `universe` = ".$UNI." AND `username` = '".$GLOBALS['DATABASE']->sql_escape($username)."')");
+				$Count 	= $GLOBALS['DATABASE']->getFirstCell("SELECT (SELECT COUNT(*) FROM ".USERS." WHERE `universe` = ".$UNI." AND `username` = '".$GLOBALS['DATABASE']->sql_escape($username)."') + (SELECT COUNT(*) FROM ".USERS_VALID." WHERE `universe` = ".$UNI." AND `username` = '".$GLOBALS['DATABASE']->sql_escape($username)."')");
 				
 				if (!empty($Count)) {
 					$this->printMessage(sprintf($LNG['op_change_name_exist'], $username));
@@ -239,12 +245,12 @@ class ShowSettingsPage extends AbstractPage
 
 		if (!empty($email) && $email != $USER['email'])
 		{
-			if(cryptPassword($newpassword) != $USER['password']) {
+			if(cryptPassword($password) != $USER['password']) {
 				$this->printMessage($LNG['op_need_pass_mail']);
 			} elseif(!ValidateAddress($email)) {
 				$this->printMessage($LNG['op_not_vaild_mail']);
 			} else {
-				$Count 	= $GLOBALS['DATABASE']->countquery("SELECT (SELECT COUNT(*) FROM ".USERS." WHERE id != ".$USER['id']." AND universe = ".$UNI." AND (email = '".$GLOBALS['DATABASE']->sql_escape($email)."' OR email_2 = '".$GLOBALS['DATABASE']->sql_escape($email)."')) + (SELECT COUNT(*) FROM ".USERS_VALID." WHERE universe = ".$UNI." AND email = '".$GLOBALS['DATABASE']->sql_escape($email)."')");
+				$Count 	= $GLOBALS['DATABASE']->getFirstCell("SELECT (SELECT COUNT(*) FROM ".USERS." WHERE id != ".$USER['id']." AND universe = ".$UNI." AND (email = '".$GLOBALS['DATABASE']->sql_escape($email)."' OR email_2 = '".$GLOBALS['DATABASE']->sql_escape($email)."')) + (SELECT COUNT(*) FROM ".USERS_VALID." WHERE universe = ".$UNI." AND email = '".$GLOBALS['DATABASE']->sql_escape($email)."')");
 				if (!empty($Count)) {
 					$this->printMessage(sprintf($LNG['op_change_mail_exist'], $email));
 				} else {
@@ -264,7 +270,7 @@ class ShowSettingsPage extends AbstractPage
 			{
 				$SQL	.= "UPDATE ".USERS." SET 
 							urlaubs_modus = '1',
-							urlaubs_until = ".(TIMESTAMP + $CONF['vmode_min_time'])."
+							urlaubs_until = ".(TIMESTAMP + Config::get('vmode_min_time'))."
 							WHERE id = ".$USER["id"].";							
 							UPDATE ".PLANETS." SET
 							energy_used = '0',
@@ -301,7 +307,8 @@ class ShowSettingsPage extends AbstractPage
 					settings_mis = ".$galaxyMissle.",
 					authattack = ".$adminprotection.",
 					lang = '".$language."',
-					hof = ".$queueMessages."
+					hof = ".$queueMessages.",
+					spyMessagesMode = ".$spyMessagesMode."
 					WHERE id = '".$USER["id"]."';";
 		
 		$GLOBALS['DATABASE']->multi_query($SQL);

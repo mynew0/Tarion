@@ -23,17 +23,19 @@
  * @copyright 2011 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.5 (2011-07-31)
- * @info $Id: INSTALL.php 2149 2012-03-15 22:24:13Z slaver7 $
- * @link http://code.google.com/p/2moons/
+ * @info $Id: INSTALL.php 2403 2012-10-30 23:46:56Z slaver7 $
+ * @link http://2moons.cc/
  */
 
 $LNG['back']					= 'Zurück';
 $LNG['continue']				= 'Weiter';
+$LNG['continueUpgrade']			= 'Upgraden!';
 $LNG['login']					= 'Login';
 
 $LNG['menu_intro']				= 'Intro';
 $LNG['menu_install']			= 'Installieren';
 $LNG['menu_license']			= 'Lizenz';
+$LNG['menu_upgrade']			= 'Upgrade';
 
 $LNG['title_install']			= 'Installer';
 
@@ -41,6 +43,9 @@ $LNG['intro_lang']				= 'Sprache';
 $LNG['intro_install']			= 'Zur Installation';
 $LNG['intro_welcome']			= 'Herzlich Willkommen beim 2Moons!';
 $LNG['intro_text']				= '2Moons ist eines der besten Klone von OGame.<br>2Moons ist die neueste und stabilste XNova Version je entwickelt wurde. 2Moons glänzt durch Stabilität, Flexibilität, Dynamik, Qualität und Benutzerfreundlichkeit. Wir hoffen immer besser zu sein als ihre Erwartungen.<br><br>Das Installations-System führt Sie durch die Installation, oder Upgrade auf einer vorherigen Version auf die neueste ein. Jede Frage, ein Problem zögern Sie bitte nicht, unsere Entwicklung und Unterstützung zu ersuchen.<br><br>2Moons ist ein OpenSource-Projekt und ist under GNU GPL v3 lizenziert. Zur Lizenz klicken Sie bitte im Menu auf die entsprechenden Menüpunkt.<br><br>Bevor die Installation gestartet werden kann, wird vorher ein kleiner Test durchgeführt, ob sie die Mindestanforderungen unterstützen.';
+$LNG['intro_upgrade_head']		= '2Moons schon installiert?';
+$LNG['intro_upgrade_text']		= '<p>Du hast 2Moons bereits installiert und möchtest einfach updaten?</p><p>Hier kann du deine alte Datenbank mit wenigen klicks aktualisieren!</p>';
+
 
 $LNG['licence_head']			= 'Lizenzbestimmungen';
 $LNG['licence_desc']			= 'Bitte lesen Sie die folgenden Lizenzbestimmungen. Verwenden Sie die Bildlaufleiste, um das gesamte Dokument anzuzeigen.';
@@ -87,7 +92,6 @@ $LNG['step1_mysql_dbname']		= 'Name der Datenbank';
 $LNG['step1_mysql_prefix']		= 'Tabellenprefix:';
 
 $LNG['step2_prefix_invalid']	= 'Der DB-Prefix darf nur alphanumerische Zeichen und Unterstriche enthalten.';
-$LNG['step2_db_error']			= 'Fehler beim Erstellen der Datenbank-Tabellen:';
 $LNG['step2_db_no_dbname']		= 'Kein Datenbank-Name angegeben.';
 $LNG['step2_db_too_long']		= 'Das angegebene Tabellen-Präfix ist zu lang. Die maximale Länge beträgt 36 Zeichen.';
 $LNG['step2_db_con_fail']		= 'Es kann keine Verbindung zur Datenbank aufgebaut werden. Details stehen in unten angezeigter Fehlermeldung.';
@@ -98,6 +102,7 @@ $LNG['step2_db_done']			= 'Verbindung zur Datenbank war erfolgreich!';
 
 $LNG['step3_head']				= 'Datenbank-Tabellen erstellen';
 $LNG['step3_desc']				= 'Die von 2Moons genutzten Datenbank-Tabellen wurden nun erstellt und mit einigen Ausgangswerten gefüllt. Geh weiter zum nächsten Schritt, um die Installation von 2Moons abzuschließen.';
+$LNG['step3_db_error']			= 'Fehler beim Erstellen der Datenbank-Tabellen:';
 
 $LNG['step4_head']				= 'Administrator erstellen';
 $LNG['step4_desc']				= 'Der Installationsassistent erstellt nun ein Administrator-Konto für Sie. Bitte geben Sie dazu einen Benutzernamen, eine E-Mail-Adresse und ein Kennwort ein.';

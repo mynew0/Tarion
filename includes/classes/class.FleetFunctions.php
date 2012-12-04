@@ -2,7 +2,7 @@
 
 /**
  *  2Moons
- *  Copyright (C) 2011  Slaver
+ *  Copyright (C) 2012 Jan Kröpke
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,13 +18,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package 2Moons
- * @author Slaver <slaver7@gmail.com>
- * @copyright 2009 Lucky <lucky@xgproyect.net> (XGProyecto)
- * @copyright 2011 Slaver <slaver7@gmail.com> (Fork/2Moons)
+ * @author Jan Kröpke <info@2moons.cc>
+ * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.6.1 (2011-11-19)
- * @info $Id: class.FleetFunctions.php 2197 2012-04-18 20:47:51Z slaver7 $
- * @link http://code.google.com/p/2moons/
+ * @version 1.7.0 (2012-12-31)
+ * @info $Id: class.FleetFunctions.php 2416 2012-11-10 00:12:51Z slaver7 $
+ * @link http://2moons.cc/
  */
 
 class FleetFunctions 
@@ -76,6 +75,16 @@ class FleetFunctions
 		return $speed;
 	}
 	
+	public static function getExpeditionLimit($USER)
+	{
+		return floor(sqrt($USER[$GLOBALS['resoruce'][124]]));
+	}
+	
+	public static function getDMMissionLimit($USER)
+	{
+		return Config::get('max_dm_missions');
+	}
+	
 	public static function getMissileRange($Level)
 	{
 		return max(($Level * 5) - 1, 0);
@@ -106,6 +115,11 @@ class FleetFunctions
 		$SpeedFactor	*= pow($Distance * 10 / $MaxFleetSpeed, 0.5);
 		$SpeedFactor	+= 10;
 		$SpeedFactor	/= $GameSpeed;
+		
+		if(isset($USER['factor']['FlyTime']))
+		{
+			$SpeedFactor	*= max(0, 1 + $USER['factor']['FlyTime']);
+		}
 		
 		return max($SpeedFactor, MIN_FLEET_TIME);
 	}
@@ -167,7 +181,7 @@ class FleetFunctions
 		$stayBlock	= array();;
 		if (in_array(15, $Missions)) {
 			for($i = 1;$i <= $USER[$resource[124]];$i++) {	
-				$stayBlock[$i]	= round($i / $CONF['halt_speed'], 2);
+				$stayBlock[$i]	= round($i / Config::get('halt_speed'), 2);
 			}
 		}
 		elseif(in_array(11, $Missions)) 
@@ -187,7 +201,7 @@ class FleetFunctions
 				if(empty($FleetGroup))
 			return 0;
 			
-		$GetAKS 	= $GLOBALS['DATABASE']->countquery("SELECT ankunft FROM ".AKS." WHERE id = ".$FleetGroup.";");
+		$GetAKS 	= $GLOBALS['DATABASE']->getFirstCell("SELECT ankunft FROM ".AKS." WHERE id = ".$FleetGroup.";");
 
 		return !empty($GetAKS) ? $GetAKS - TIMESTAMP : 0;
 	}
@@ -212,7 +226,7 @@ class FleetFunctions
 	public static function GetCurrentFleets($USERID, $Mission = 0)
 	{
 		
-		$ActualFleets = $GLOBALS['DATABASE']->uniquequery("SELECT COUNT(*) as state FROM ".FLEETS." WHERE fleet_owner = '".$USERID."' AND ".(($Mission != 0)?"fleet_mission = '".$Mission."'":"fleet_mission != 10").";");
+		$ActualFleets = $GLOBALS['DATABASE']->getFirstRow("SELECT COUNT(*) as state FROM ".FLEETS." WHERE fleet_owner = '".$USERID."' AND ".(($Mission != 0)?"fleet_mission = '".$Mission."'":"fleet_mission != 10").";");
 		return $ActualFleets['state'];
 	}	
 	
@@ -220,7 +234,7 @@ class FleetFunctions
 	{
 			
 
-		$FleetRow = $GLOBALS['DATABASE']->uniquequery("SELECT start_time, fleet_mission, fleet_group, fleet_owner, fleet_mess FROM ".FLEETS." WHERE fleet_id = '". $FleetID ."';");
+		$FleetRow = $GLOBALS['DATABASE']->getFirstRow("SELECT start_time, fleet_mission, fleet_group, fleet_owner, fleet_mess FROM ".FLEETS." WHERE fleet_id = '". $FleetID ."';");
 		if ($FleetRow['fleet_owner'] != $USER['id'] || $FleetRow['fleet_mess'] == 1)
 			return;
 			
@@ -228,7 +242,7 @@ class FleetFunctions
 
 		if($FleetRow['fleet_mission'] == 1 && $FleetRow['fleet_group'] != 0)
 		{
-			$acsResult = $GLOBALS['DATABASE']->countquery("SELECT COUNT(*) FROM ".USERS_ACS." WHERE acsID = ".$FleetRow['fleet_group'].";");
+			$acsResult = $GLOBALS['DATABASE']->getFirstCell("SELECT COUNT(*) FROM ".USERS_ACS." WHERE acsID = ".$FleetRow['fleet_group'].";");
 
 			if($acsResult != 0)
 			{
@@ -285,7 +299,7 @@ class FleetFunctions
 		$UsedPlanet				= (!empty($GetInfoPlanet['id_owner'])) ? true : false;
 		$avalibleMissions		= array();
 		
-		if ($MissionInfo['planet'] == ($CONF['max_planets'] + 1) && isModulAvalible(MODULE_MISSION_EXPEDITION))
+		if ($MissionInfo['planet'] == (Config::get('max_planets') + 1) && isModulAvalible(MODULE_MISSION_EXPEDITION))
 			$avalibleMissions[]	= 15;	
 		elseif ($MissionInfo['planettype'] == 2) {
 			if ((isset($MissionInfo['Ship'][209]) || isset($MissionInfo['Ship'][219])) && isModulAvalible(MODULE_MISSION_RECYCLE) && !($GetInfoPlanet['der_metal'] == 0 && $GetInfoPlanet['der_crystal'] == 0))
@@ -330,7 +344,7 @@ class FleetFunctions
 		if(!BASH_ON)
 			return false;
 			
-		$Count	= $GLOBALS['DATABASE']->countquery("SELECT COUNT(*) FROM uni1_log_fleets
+		$Count	= $GLOBALS['DATABASE']->getFirstCell("SELECT COUNT(*) FROM ".LOG_FLEETS."
 		WHERE fleet_owner = ".$USER['id']." 
 		AND fleet_end_id = ".$Target." 
 		AND fleet_state != 2 

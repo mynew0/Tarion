@@ -2,7 +2,7 @@
 
 /**
  *  2Moons
- *  Copyright (C) 2011  Slaver
+ *  Copyright (C) 2012 Jan Kröpke
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,13 +18,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package 2Moons
- * @author Slaver <slaver7@gmail.com>
- * @copyright 2009 Lucky <lucky@xgproyect.net> (XGProyecto)
- * @copyright 2011 Slaver <slaver7@gmail.com> (Fork/2Moons)
+ * @author Jan Kröpke <info@2moons.cc>
+ * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.6.1 (2011-11-19)
- * @info $Id: class.ShowGalaxyPage.php 2126 2012-03-11 21:11:32Z slaver7 $
- * @link http://code.google.com/p/2moons/
+ * @version 1.7.0 (2012-12-31)
+ * @info $Id: class.ShowGalaxyPage.php 2416 2012-11-10 00:12:51Z slaver7 $
+ * @link http://2moons.cc/
  */
 
 require_once(ROOT_PATH . 'includes/classes/class.FleetFunctions.php');
@@ -48,30 +47,30 @@ class ShowGalaxyPage extends AbstractPage
 		$galaxyRight	= HTTP::_GP('galaxyRight', '');
 		$systemLeft		= HTTP::_GP('systemLeft', '');
 		$systemRight	= HTTP::_GP('systemRight', '');
-		$galaxy			= min(max(HTTP::_GP('galaxy', $PLANET['galaxy']), 1), $CONF['max_galaxy']);
-		$system			= min(max(HTTP::_GP('system', $PLANET['system']), 1), $CONF['max_system']);
-		$planet			= min(max(HTTP::_GP('planet', $PLANET['planet']), 1), $CONF['max_planets']);
+		$galaxy			= min(max(HTTP::_GP('galaxy', $PLANET['galaxy']), 1), Config::get('max_galaxy'));
+		$system			= min(max(HTTP::_GP('system', $PLANET['system']), 1), Config::get('max_system'));
+		$planet			= min(max(HTTP::_GP('planet', $PLANET['planet']), 1), Config::get('max_planets'));
 		$type			= HTTP::_GP('type', 1);
 		$current		= HTTP::_GP('current', 0);
 			
         if (!empty($galaxyLeft))
             $galaxy	= max($galaxy - 1, 1);
         elseif (!empty($galaxyRight))
-            $galaxy	= min($galaxy + 1, $CONF['max_galaxy']);
+            $galaxy	= min($galaxy + 1, Config::get('max_galaxy'));
 
         if (!empty($systemLeft))
             $system	= max($system - 1, 1);
         elseif (!empty($systemRight))
-            $system	= min($system + 1, $CONF['max_system']);
+            $system	= min($system + 1, Config::get('max_system'));
 
 		if ($galaxy != $PLANET['galaxy'] || $system != $PLANET['system'])
 		{
-			if($PLANET['deuterium'] < $CONF['deuterium_cost_galaxy'])
+			if($PLANET['deuterium'] < Config::get('deuterium_cost_galaxy'))
 			{	
 				$this->printMessage($LNG['gl_no_deuterium_to_view_galaxy'], array("game.php?page=galaxy", 3));
 				exit;
 			} else {
-				$PLANET['deuterium']	-= $CONF['deuterium_cost_galaxy'];
+				$PLANET['deuterium']	-= Config::get('deuterium_cost_galaxy');
             }
 		}
 
@@ -110,7 +109,7 @@ class ShowGalaxyPage extends AbstractPage
 			'current_system'			=> $PLANET['system'],
 			'current_planet'			=> $PLANET['planet'],
 			'planet_type' 				=> $PLANET['planet_type'],
-            'max_planets'               => $CONF['max_planets'],
+            'max_planets'               => Config::get('max_planets'),
 			'MissleSelector'			=> $MissleSelector,
 			'ShortStatus'				=> array(
 				'vacation'					=> $LNG['gl_short_vacation'],
@@ -119,6 +118,9 @@ class ShowGalaxyPage extends AbstractPage
 				'longinactive'				=> $LNG['gl_short_long_inactive'],
 				'noob'						=> $LNG['gl_short_newbie'],
 				'strong'					=> $LNG['gl_short_strong'],
+				'enemy'						=> $LNG['gl_short_enemy'],
+				'friend'					=> $LNG['gl_short_friend'],
+				'member'					=> $LNG['gl_short_member'],
 			),
 		));
 		

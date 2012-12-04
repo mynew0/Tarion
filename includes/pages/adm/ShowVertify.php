@@ -23,13 +23,11 @@
  * @copyright 2011 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.7.0 (2011-12-10)
- * @info $Id: ShowVertify.php 2140 2012-03-14 17:42:42Z slaver7 $
- * @link http://code.google.com/p/2moons/
+ * @info $Id: ShowVertify.php 2416 2012-11-10 00:12:51Z slaver7 $
+ * @link http://2moons.cc/
  */
 
-if (!allowedTo(str_replace(array(dirname(__FILE__), '\\', '/', '.php'), '', __FILE__))) exit;
-
-
+if (!allowedTo(str_replace(array(dirname(__FILE__), '\\', '/', '.php'), '', __FILE__))) throw new Exception("Permission error!");
 
 function ShowVertify() 
 {
@@ -41,7 +39,7 @@ function ShowVertify()
 	
 	switch($action) {
 		case 'check':
-			$REV	= explode(".", $CONF["VERSION"]);
+			$REV	= explode(".", Config::get("VERSION"));
 			$REV	= $REV[2];
 			$ch = curl_init();
 			curl_setopt($ch, CURLOPT_AUTOREFERER, true);
