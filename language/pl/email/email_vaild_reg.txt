@@ -1,0 +1,20 @@
+﻿Witaj %1$s,
+
+Zdecydowałeś/aś stworzyć konto na Tarion.net!
+
+Kliknij proszę na poniższy link, aby potwierdzić swoje konto w grze:
+
+%3$s?page=reg&action=valid&uni=%7$s&clef=%4$
+
+Twoje dane dostępu:
+
+Nazwa gracza: %1$s
+Hasło: %5$s
+
+Jeśli potrzebujesz pomocy na początku albo chcesz mieć kontakt z innymi graczami, wszystko czego potrzebujesz znajdziesz na Forum Tarion (http://tarion.net/forum/).
+
+Zapoznaj się też z Zasadami Gry, wszelkie związane z nimi zmiany zamieszczane są na bieżąco na oficjalnej stronie Tarion.Net oraz forum (http://tarion.net/forum/).
+
+Życzymy Ci dużo dobrej zabawy w świecie Tarion.
+
+Pozdrawiamy Tarion.net Team

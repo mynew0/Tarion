@@ -1,0 +1,113 @@
+<ul id="rules">
+
+<br> <b> <center> law is superior to the Rules of the Constitution of the Polish Republic.
+
+<br> <i> Remember that none of our team will not be demanded from you a password for your account </ i> </center> </b>
+
+
+<li>
+<h1> <center> Terms and Conditions </center> </h1>
+<p>1. Each player on the server accepts the rules and is obliged to strictly comply, and the recognition of sovereignty of the administration. </p>
+<p>2. On the server applies manners. Cursing and insulting other players, produced on the chat channels, bans will be punished (by Administacji). Repeated failure to this point may be punished (perm ban). </p>
+<p>3. Tarion.net is a free game, so there can be no claim to the availability of games. </p>
+<p>4. Tarion.net does not assume any liability for unavailability of the game, bugs in the program, etc. </p>
+<p>5. If a player will be at a disadvantage arising from the errors of the game, a software error, etc., entitled to appeal to the Administrators. </p>
+<p>6. Failure to report and use the error of the game, regardless of the cause and circumstances of occurrence, will be punished, for the discovery of an unusual situation, lack of certainty as to its compatibility, you should immediately report the problem to the Administrator, ignorance is no excuse. </p>
+<p>7. Hidden bugs, or errors manifest themselves during the game, are no exceptions to the general rule. Penalty for use of fixed Bug Administrator. </p>
+<p>8. <b> Administrators have the right to switch off the server for no reason, at any time. </b> </p>
+<p>9. <b> Advertising other servers will be punished (perm ban). </b> </p>
+<p>10. Impersonating members of the team will be punished with expulsion from the server (perm ban). </p>
+</li>
+<li>
+Accounts <center> <h1> Players </center> </h1>
+<p>11. The exchange account is <b> PROHIBITED </b>, all kinds of exchanges will be punished (perm ban). </p>
+<p>12. <b> Each player can have only one account! - </b> unless you share a link on a few people, in which case you must notify the Administration. But it is not allowed to transfer between the planets resources, fleet, etc. (perm ban IP) </b> </p>
+<p>13. Each player is responsible for your account. Administration is not responsible for the conversion, burglary and shared accounts. Each of you must take care of itself adequate collateral account. </p>
+<p>14. It is forbidden to the names, nicknames names of the planets and agreed to be vulgar, distasteful, sexually suggestive. These names, along with the accounts will be deleted without notice. </p>
+<p>15. <b> Administration has no obligation to restore the accounts, no matter the circumstances. </b> </p>
+<p>16. Discrimination, racism, antisemitism, violence, harassment, incitement to violence or vandalism will be penalized by the Administrator. </p>
+<p>17. <b> taunting, abuse, discrimination against the Administration will be penalized (penalty amount determined under Administration). </b> </p>
+<p>18. Assigning <b> replacement account! - </b>
+In another case, it is allowed to have someone replace you when you play by logging into your account. Before they Cie zas¹pi the game you should warn the Administration (PW), indicating the time of replacement, but which should not exceed 48 hours. But giving the access to your account, you can lose. Administration is not responsible for lost accounts in such a way!
+When you replace someone, that person can not send attacks! And can build units and new buildings. It can also run a fleet of attack (fleetsave). </p>
+<p>19. <b> Account zasêpstwo - </b> if the time of your absence is longer, it is recommended to activate the vacation mode in the options panel (which lasts for at least 3days)! </p>
+</li>
+<li>
+<h1> <center> Rules </center> </h1>
+<p>20. Pushing <b> - </b> are understood as pushing any transport raw materials from the player with fewer points to a stronger player. This also applies to extortion. Any shipment of raw materials from weaker to stronger player, not a trade and / or not returned by a stronger player in 24 hours will be understood as pushing. Pushing begins with the dispatch of more than 500 units. Any attempt to circumvent this rule are not allowed, and the use of risk (perm ban)! </p>
+<p>21. Pushing in alliance <b> - </b> <u> allowed </u> is only when the shipment is justified, eg when a player lost his fleet. It is prior to shipment of any commodity to notify the Administrator who will investigate the situation. Should be supported by the evidence in the form of a report of war, etc. </p>
+<p>22. <b> loan resources - </b> is permitted <u> </u> only if the player was sent to the transport will send the equivalent amount of raw material shipped within 24 hours In the case of notification by the player of the failure of the account is blocked. </p>
+<p>23. Trade between the players should be completed within 24 hours of sending the first transport of one of the players. Paying off its trade commitments in the form of leave to gather PZ is not allowed. If the players take the appropriate trade raw materials must be sent a fleet to transport the. </p>
+<p>24. All raw materials at a time when a player sends it weaker than the other should be immediately returned to him. This fact should also notify the Administration. </p>
+<p>25. Prohibited the storage of substantial quantities of raw materials on the planet for the raid by the same player many times when this state is purposeful. </p>
+<p>26. It is forbidden to own the storage of raw materials on planets inactive players. </p>
+<p>27. <b> Moonmaking </b> is permitted <u> </u>, but can not take place between the two accounts on the same IP address. </p>
+<p>28. <b> Bashing - </b> prevents too frequent attacks on one account by the same player. More than 4 attacks during the day ACCOUNT <b> (from 0:00 to 24:00) </b> will be defined as Bash and is unacceptable <u> </u>. The destruction is regarded as one attack. Accounts inactive over 7 days, ie with the letter <b> and </b> or <b> l </b> in the galaxy, this rule does not apply <u> </u>. </p>
+<p>29. <b> Bash does not apply to: </b>
+<li>
+- Kills spy probes. <br/>
+- Accounts inactive. <br/>
+- Attacking fleets, which were completely destroyed. <br/>
+- Battles between members of alliances that are in a state of war <b> </b>.
+</li> </p>
+<p>30. War must be agreed by the leaders of alliances and declared at the forum, and clearly describes the principles for which the two alliances will apply:
+<li>
+- The war is over at least after 24 hours of commencement, unless the Administaracja confirm a longer course. <br/>
+- No limit attacks on members of a hostile alliance. <br/>
+- After the war, the categorical prohibition of attacks (except attacks sent before the end of the war that is in the process). </li> </p>
+<p>31. <b> missile attack: </b>
+<br> the past day (24h) on the one planet can drop up to 1,000 rockets! The penalty shall <b> Administrator </b> </p>
+<p>32. For a moment, before reaching the fleet to the defense counsel, it is forbidden to multiple spyware scans its planetary probes to server load. This rule is designed to protect players by rapid scans at very short intervals. </p>
+<p>33. Any attempt to circumvent the rules for Pushing or Bashing-u-u mentioned in points. 20-29, will be considered by the Administration. </p>
+<p>34. The messages in the game is not only the correspondence system easier for the players. Administration due to the nature side has the right to review the information in the system. </p>
+</p>
+</li>
+<li>
+Extortion and <h1> <center> Bugusing </center> </h1>
+<p>35. The responsibility of each player's game is to report errors (bugs, typos, bad action) on the forum or the operator of the game (the Administrator). </p>
+<p>36. Conversion of accounts is permitted. </p>
+<p>37 If you change the player has no right to blame the previous account. </p>
+<p>38. <b> Bugusing - </b> are understood all account activity and beyond to try to benefit as a result of error code and game mechanics. Attempts to use well-known vulnerabilities and alleged security testing shall be punishable same as bugusing. Attempts to enter the game files are subject to administrative penalties (perm ban, IP). </p>
+<p>39. Any attempt to slow down the server are not allowed. </p>
+<p>40. Detected errors that prevent the game on the account must be reported Administration. Failures in the game and typing errors, and errors have no significant impact on the game should be reported to the forum. </p>
+<p>41. Errors are understood by the states of the game and errors in the operation, which used properly can assist the player in its development, or prevent action on your account. </p>
+<p>42. Failing to yield the raw material are prohibited. The situation should be reported to the Administrator. </p>
+<p>43. <b> Any returns must be reported within 72 hours from the time the error occurred, in other instances, a case is barred and the Administration does not have to deal with. </b> </p>
+<p>44. Threats of property and individuals are also prohibited. </p>
+<p>45. Prohibited are all actions which aim to pose as members of the administration of the game, or to rely on knowledge of one of the members of the administration Tarion.net. </p>
+</li>
+<li>
+<h1> <center> out of the game </center> </h1>
+<p>46. Remember, it's just a game, move to the real world of emotion, either through chat or forum, any groœby, name-calling, etc. .. etc. .. is not allowed! Culture above all, do not spoil your fun other hamskim behavior </p>
+</li>
+<li>
+<h1> <center> Spam </center> </h1>
+<p>47. Spamming is prohibited no matter in what form such as:
+<li> - chat <br/>
+- Forum <br/>
+- Private messages </li> </p>
+<p>48.Somebody spamming, please notify the Administration! </p>
+</li>
+<li>
+<h1> <center> Summary </center> </h1>
+<p>49. Rules apply to every user </p>
+<p>50. Work crew is a charity, it receives no dedicated time for no pay, so be sure to ask him with respect. </p>
+<p>51. Team members are entitled to time off. </p>
+<p>52. Team members have the right not to know the answer to every question. </p>
+<p>53. Members of the team are also people make mistakes, but it is not immediately a reason to deny all their actions. </p>
+<p>54. Phrases like, "Hey you," "hono here", "the view" are not welcome by anyone, including members of the team, behave towards them with due respect - that you played well - volunteer their own time, they are not your employees whatever they told you to him. </p>
+<p>55. Contact with members of the team can be made by public funds: PM on the forum. Team members are not required to deliver other forms of contact. </p>
+<p>56. Administrator position as Superintendent reason does not receive any gratuity or pecuniary or "facilitation of the game", nepotism and not being fair to the rest of the players will be penalized. </p>
+<p>57. Administrator function was not created for private discussions and fun! </p>
+<p>58. Administrator shall apply the same rules as the player, but to be able to perform their duties, any complaint in the direction of the Administrator shall consider Head Admin. </p>
+<p>59. Administrator, in exceptional cases, if a violation of the Rules dopatrzy, Polish Law can block any number of accounts in the game / forum of your IP address, for any reason. </p>
+<p>60. Administrators decisions are final and irrevocable. </b> </p>
+</li>
+
+<center> <b> remind you that the server is private property and the owner of the sentence is final and irrevocable.
+<br> remind you that regulations may change, we recommend checking back here as often as possible. Last updated 6/8/2012.
+<br>
+<br>
+Regulations prepared by the Administration Tarion.net. All rights reversed (C) 2012 </b> </center>
+
+</ul>
