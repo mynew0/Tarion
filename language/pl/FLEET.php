@@ -1,76 +1,81 @@
 <?php
+
+/**
+ *  Tarion.net
+ *  All rights reversed (C) 2012
+ *
+ *  Translated into Polish by Alojz and Gary (Tarion.net).
+ *
+ */
+
 $LNG['and']									= 'i';
 
-
-//----------------------------------------------------------------------------//
-//SYSTEM
-$LNG['sys_attacker_lostunits'] 				= "Atakujący przegrał:";
-$LNG['sys_defender_lostunits'] 				= "Obrońca przegrał:";
+// SYSTEM
+$LNG['sys_attacker_lostunits']				= "Atakujący przegrał:";
+$LNG['sys_defender_lostunits']				= "Obrońca przegrał:";
 $LNG['sys_units']							= "jednostki";
-$LNG['debree_field_1'] 						= "Pole zniszczeń";
+$LNG['debree_field_1']						= "Pole zniszczeń";
 $LNG['debree_field_2']						= ".";
-$LNG['sys_moonproba'] 						= "Szansa na księżyc: ";
-$LNG['sys_moonbuilt'] 						= "Księżyc formuje się w pobliżu planety %s [%d:%d:%d] !";
-$LNG['sys_attack_title']    				= "Następujące floty spotkały się: ";
+$LNG['sys_moonproba']						= "Szansa na księżyc: ";
+$LNG['sys_moonbuilt']						= "Księżyc formuje się w pobliżu planety %s [%d:%d:%d] !";
+$LNG['sys_attack_title']					= "Następujące floty spotkały się: ";
 $LNG['sys_attack_round']					= "Runda";
-$LNG['sys_attack_attacker_pos'] 			= "Atakujący";
-$LNG['sys_attack_techologies'] 				= 'Broń: %d %% Osłona: %d %% Pole Siłowe: %d %% ';
-$LNG['sys_attack_defender_pos'] 			= "Obrońca";
-$LNG['sys_ship_type'] 						= "Typ";
-$LNG['sys_ship_count'] 						= "Ilość";
-$LNG['sys_ship_weapon'] 					= "Broń";
-$LNG['sys_ship_shield'] 					= "Osłona";
-$LNG['sys_ship_armour'] 					= "Pole Siłowe";
-$LNG['sys_destroyed'] 						= "Zniszczony";
-$LNG['fleet_attack_1'] 						= "Atakująca flota strzeliła z siłą :";
+$LNG['sys_attack_attacker_pos']				= "Atakujący";
+$LNG['sys_attack_techologies']				= 'Broń: %d %% Osłona: %d %% Pole Siłowe: %d %% ';
+$LNG['sys_attack_defender_pos']				= "Obrońca";
+$LNG['sys_ship_type']						= "Typ";
+$LNG['sys_ship_count']						= "Ilość";
+$LNG['sys_ship_weapon']						= "Broń";
+$LNG['sys_ship_shield']						= "Osłona";
+$LNG['sys_ship_armour']						= "Pole Siłowe";
+$LNG['sys_destroyed']						= "Zniszczony";
+$LNG['fleet_attack_1']						= "Atakująca flota strzeliła z siłą :";
 $LNG['fleet_attack_2']						= "w obrońce. Osłona obrońcy pochłoneła :";
 $LNG['fleet_defs_1'] 						= "Broniąca się flota strzeliła z siłą :";
 $LNG['fleet_defs_2']						= "w atakującego. Osłona agresora pochłoneła :";
 $LNG['damage']								= "Punkty ataku.";
-$LNG['sys_attacker_won'] 					= "Agresor wygrał bitwe";
-$LNG['sys_defender_won'] 					= "Obrońca wygrał bitwe";
-$LNG['sys_both_won'] 						= "Bitwa się nie rozstrzygneła! ";
+$LNG['sys_attacker_won']					= "Agresor wygrał bitwe";
+$LNG['sys_defender_won']					= "Obrońca wygrał bitwe";
+$LNG['sys_both_won']						= "Bitwa się nie rozstrzygneła! ";
 $LNG['sys_stealed_ressources'] 				= "Przejoł";
 $LNG['sys_and']								= "i";
-$LNG['sys_mess_tower'] 						= "Dowództwo Floty";
-$LNG['sys_mess_attack_report'] 				= "Raport walki";
-$LNG['sys_spy_fleet'] 						= "Flota";
-$LNG['sys_spy_defenses'] 					= "Obrony";
-$LNG['sys_mess_qg'] 						= "Centrum szpiegowania";
+$LNG['sys_mess_tower']						= "Dowództwo Floty";
+$LNG['sys_mess_attack_report']				= "Raport walki";
+$LNG['sys_spy_fleet']						= "Flota";
+$LNG['sys_spy_defenses']					= "Obrony";
+$LNG['sys_mess_qg']							= "Centrum szpiegowania";
 $LNG['sys_mess_spy_report_moon']			= "(Księżyc)";
-$LNG['sys_mess_spy_report'] 				= "Raport wywiadu";
-$LNG['sys_mess_head'] 						= 'Raport szpiegowski %s [%d:%d:%d] na %s';
-$LNG['sys_mess_spy_lostproba'] 				= "Szansa na zniszczenie sondy szpiegowskiej to:  %d %% ";
-$LNG['sys_mess_spy_control'] 				= "Kontrola szpiegowska";
-$LNG['sys_mess_spy_activity'] 				= "Aktywność szpiegowska";
-$LNG['sys_mess_spy_ennemyfleet'] 			= "Wroga flota z planety";
-$LNG['sys_mess_spy_seen_at'] 				= "została dostrzeżona w pobliżu twojej planety";
-$LNG['sys_mess_spy_seen_at2'] 				= 'dostrzeżono';
-$LNG['sys_mess_spy_destroyed'] 				= '<font color="red">Twoja sonda została zniszczona! </font>';
-$LNG['sys_adress_planet'] 					= '[%s:%s:%s]';
+$LNG['sys_mess_spy_report']					= "Raport wywiadu";
+$LNG['sys_mess_head']						= 'Raport szpiegowski %s [%d:%d:%d] na %s';
+$LNG['sys_mess_spy_lostproba']				= "Szansa na zniszczenie sondy szpiegowskiej to:  %d %% ";
+$LNG['sys_mess_spy_control']				= "Kontrola szpiegowska";
+$LNG['sys_mess_spy_activity']				= "Aktywność szpiegowska";
+$LNG['sys_mess_spy_ennemyfleet']			= "Wroga flota z planety";
+$LNG['sys_mess_spy_seen_at']				= "została dostrzeżona w pobliżu twojej planety";
+$LNG['sys_mess_spy_seen_at2']				= 'dostrzeżono';
+$LNG['sys_mess_spy_destroyed']				= '<font color="red">Twoja sonda została zniszczona! </font>';
+$LNG['sys_adress_planet']					= '[%s:%s:%s]';
 
+$LNG['sys_stat_mess_stay']					= 'Położenie floty';
+$LNG['sys_stat_mess']						= 'Twoja flota dotarła na  planetę %s i dostarczyła %s %s, %s %s i %s %s.';
 
-$LNG['sys_stat_mess_stay']           		= 'Położenie floty';
-$LNG['sys_stat_mess'] 		         		= 'Twoja flota dotarła na  planetę %s i dostarczyła %s %s, %s %s i %s %s.';
+$LNG['sys_colo_mess_from']					= "Kolonizacja";
+$LNG['sys_colo_mess_report']				= "Raport kolonizacji";
+$LNG['sys_colo_defaultname']				= "Kolonia";
 
-$LNG['sys_colo_mess_from'] 					= "Kolonizacja";
-$LNG['sys_colo_mess_report'] 				= "Raport kolonizacji";
-$LNG['sys_colo_defaultname'] 				= "Kolonia";
+$LNG['sys_colo_arrival']					= "";
+$LNG['sys_colo_maxcolo']					= "Jedna z twoich flot osiągneła koordynaty %s. Kolonizacja niemożliwa, możesz mieć tylko %d planet. ";
+$LNG['sys_colo_allisok']					= "Jedna z twoich flot osiągneła koordynaty %s. Rozpoczołeś kolonizacje nowej planety.";
+$LNG['sys_colo_badpos']						= "Jedna z twoich flot osiągneła koordynaty %s. Brak możliwości kolonizacji, twoi kolonizatorzy wracają rozczarowani. ";
+$LNG['sys_colo_notfree']					= "Jedna z twoich flot osiągneła koordynaty %s. Po dotarciu na miejsce okazało się że planeta jest już skolonizowana, kolonizatorzy wracają kompletnie zdemoralizowani. ";
 
-
-$LNG['sys_colo_arrival'] 					= "";
-$LNG['sys_colo_maxcolo'] 					= "Jedna z twoich flot osiągneła koordynaty %s. Kolonizacja niemożliwa, możesz mieć tylko %d planet. ";
-$LNG['sys_colo_allisok'] 					= "Jedna z twoich flot osiągneła koordynaty %s. Rozpoczołeś kolonizacje nowej planety.";
-$LNG['sys_colo_badpos']  					= "Jedna z twoich flot osiągneła koordynaty %s. Brak możliwości kolonizacji, twoi kolonizatorzy wracają rozczarowani. ";
-$LNG['sys_colo_notfree'] 					= "Jedna z twoich flot osiągneła koordynaty %s. Po dotarciu na miejsce okazało się że planeta jest już skolonizowana, kolonizatorzy wracają kompletnie zdemoralizowani. ";
-
-$LNG['sys_expe_report'] 					= "Raport ekspedycji";
-$LNG['sys_recy_report'] 					= "Raport zbierania";
-$LNG['sys_expe_blackholl_1'] 				= "Twoja flota wpdła w czarną dziurę i została częsciowo zniszczona!";
-$LNG['sys_expe_blackholl_2'] 				= "Twoja flota wpdła w czarną dziurę i została zniszczona!";
-$LNG['sys_expe_found_goods'] 				= "Twoja ekspedycja znalazła bogatą planetę! <br>Wydobyła %s %s, %s %s i %s %s";
-$LNG['sys_expe_found_ships'] 				= "Twoja ekspedycja odkryła statki kosmiczne w doskonałym stanie.<br>: ";
-$LNG['sys_expe_back_home'] 					= "Twoja flota wróciła z ekspedycji. ";
+$LNG['sys_expe_report']						= "Raport ekspedycji";
+$LNG['sys_recy_report']						= "Raport zbierania";
+$LNG['sys_expe_blackholl_1']				= "Twoja flota wpdła w czarną dziurę i została częsciowo zniszczona!";
+$LNG['sys_expe_blackholl_2']				= "Twoja flota wpdła w czarną dziurę i została zniszczona!";
+$LNG['sys_expe_found_goods']				= "Twoja ekspedycja znalazła bogatą planetę! <br>Wydobyła %s %s, %s %s i %s %s";
+$LNG['sys_expe_found_ships']				= "Twoja ekspedycja odkryła statki kosmiczne w doskonałym stanie.<br>: ";
+$LNG['sys_expe_back_home']					= "Twoja flota wróciła z ekspedycji. ";
 $LNG['sys_expe_found_ress_1_1']				= 'Twoja ekspedycja trafiła na mały rój asteroid, z niektórych udało się coś wydobyć. <br><b>Misja: Wykonana</b> ';
 $LNG['sys_expe_found_ress_1_2']				= 'Na małej planetoidzie znaleziono łatwo wydobywalne surowce. <br><b>Misja: Wykonana</b>' ;
 $LNG['sys_expe_found_ress_1_3']				= 'Na małej planetoidzie znaleziono łatwo wydobywalne surowce, masz wielkie szczęście. <br><b>Misja: Wykonana</b>' ;
@@ -111,83 +116,81 @@ $LNG['sys_expe_time_slow_3']				= 'Podczas testów nowego modułu nawigacji coś
 $LNG['sys_expe_time_slow_4']				= 'Wyprawa trafiła na burze cząstek, dzieki mechanikom nie doszło do najgorszego, ale burza znacznie wydłuży powrót floty.';
 $LNG['sys_expe_time_slow_5']				= 'Statek Dowództwa zderzył się z dziwnym statkiem który wyskoczył z nadprzestrzeni bez żadnego ostrzeżenia. Szkody są tak duże iż zdecydowano się zawrócić wyprawę.';
 $LNG['sys_expe_time_slow_6']				= 'Kosmiczny wiatr z czerwonego olbrzyma zakłócił wejście floty w nadprzestrzeń, a komputery mają duży problem z obliczneniem wyjścia z nadprzestrzeni, flota wyszła gdzieś na krańcach systemu gdzie nie ma praktycznie nic.';
-$LNG['sys_expe_nothing_1'] 					= 'Wyprawa wraca z niczym, nie licząc dziwnych zwierzątek z planety.';
-$LNG['sys_expe_nothing_2'] 					= 'Ekspedycja zrobiła świetne zdjęcia supernowej, ale poza tym wraca z niczym. Zdjęcie za to ma szanse na najlepsze zdjęcie roku.';
-$LNG['sys_expe_nothing_3'] 					= 'Wirus komputerowy spraliżował systemy nawigacyjne wkrótce po opuszczeniu systemu słonecznego. Wyprawa zakończyła się gdy okazało się że flota lata w kółko.';
-$LNG['sys_expe_nothing_4'] 					= 'Spotkano nieznaną formę życia, w postaci czystej energii która zadziała hipnotycznie na załogę, stała i się wpatrywała w to dziwne zjawisko. Gdy ludzie się otrząsnęli zdecydowali zawrócić';
-$LNG['sys_expe_nothing_5'] 					= 'Teraz już wiadomo że czerowna anomalia klasy 5 działa nietylko haotycznie na systemy komputerowe, ale również halucogennie na załogę. Nic więcej wyprawa nie wniosła';
-$LNG['sys_expe_nothing_6'] 					= 'Skan sektoru przynosi pierwsze obiecujące znaki, jednak to tylko anomalia i flota wraca z niczym';
-$LNG['sys_expe_nothing_7'] 					= 'Być może kapitan musiał by obchodzić urodziny na tej paskudnej odległej planecie, ale panujący wirus żółtej febry zmusił dużą część załogi do przebywania na oddziałach szpitalnych. Z powodu braku pracowników flota musiała zawrócić. <br><b>Cel Misja: Nieosiągnięty</b>';
-$LNG['sys_expe_nothing_8'] 					= 'Twoja wyprawa zawarła znajomość z kompletną pustką w przestrzeni... coś niespotykanego... <br><b>Misja: Niewykonana</b>';
-$LNG['sys_expe_nothing_9'] 					= 'Awaria reaktora statku dowództwa prawie zniszczyła wyprawę, ale kilku zdolnych techników opanowało kryzys, wyprawa wraca z niczym.'; 	
-$LNG['sys_expe_attack_1_1_1'] 				= 'Jeden z kosmicznych piratów deperacko starał się przejąć naszą ekspedycję';
-$LNG['sys_expe_attack_1_1_2'] 				= 'Jacyś prymitiwni barbarzyńcy poruszający się czymś co nie powinno być statkiem kosmicznym, jednak są waleczni i zaatakowali nas.';
-$LNG['sys_expe_attack_1_1_3'] 				= 'Przechwyciliśmy kilka komunikatów piratów... najwyraźniej zostaniemy zaatakowani';
-$LNG['sys_expe_attack_1_1_4'] 				= 'Zostaliśmy zmuszeni do walki z piratami, na szczęście nie byli zbyt liczni';
-$LNG['sys_expe_attack_1_1_5'] 				= 'Nasza flota informuje że niektóre Moa Tikarr i jej dzikie psy żądają naszej kapitulacji. Jeśli to prawda musimy brać pod uwagę atak z zaskoczenia.';
-$LNG['sys_expe_attack_1_2_1'] 				= 'Twoja ekspedycja miała pecha i wpadła w zaplanowaną pułapkę piratów.';
-$LNG['sys_expe_attack_1_2_2'] 				= 'Trafiliśmy na zasadzke, walka była nieunikniona.';
-$LNG['sys_expe_attack_1_2_3'] 				= 'Dostaliśmy wezwanie o pomoc. Na miejscu okazało się iż wezwanie to pułapka piratów, walka była nieunikniona';
-$LNG['sys_expe_attack_1_3_1'] 				= 'Przechwycone sygnały okazały się że są z tego systemu, a dokładniej z bazy piratów. Nasza obecność w tym sektorze nie napełniła ich zbytnią radością';
-$LNG['sys_expe_attack_1_3_2'] 				= 'Flota nie zgłasza ciężkich walk z piratami!';
-$LNG['sys_expe_attack_2_1_1'] 				= 'Twoja flota miała pierwszy kontakt z nieznaną cywilizają, zresztą niezbyt szczęśliwy.';
-$LNG['sys_expe_attack_2_1_2'] 				= 'Jakieś statki pojawiające się ni stąd ni zowąd atakują naszą ekspedycję.';
-$LNG['sys_expe_attack_2_1_3'] 				= 'Twoja ekspedycja została zaatakowana przez małą grupę nieznanych statków';
-$LNG['sys_expe_attack_2_1_4'] 				= 'Ekspedycja raportuje kontakt z nieznanymi statkami, nie udało nam się zdekodować wiadomości ale wygląda na to że przygotowują się do atak.';
-$LNG['sys_expe_attack_2_2_1'] 				= 'Nieznane statki kosmiczne atakują naszą ekspedycje!';
-$LNG['sys_expe_attack_2_2_2'] 				= 'Twoja wyprawa trafiła na nieznaną rasę, okazało się że chyba naruszyłeś ich teretorium, a oni są niezwykle agresywni i wojowniczy';
-$LNG['sys_expe_attack_2_2_3'] 				= 'Połącznie z naszą ekspedycją zostało utracone, o ile ostatni raport został odcczytany prawidłowo, flota była pod ciężkim ostrzałem niezidentyfikowanych jednostek';
-$LNG['sys_expe_attack_2_3_1'] 				= 'Raport floty, trwają ciężkie walki.';
-$LNG['sys_expe_attack_2_3_2'] 				= 'Duża flota krystalicznych statków nieznanego pochodzenia jest na kursie kolizyjnym, musimy przygotować się na najgorsze';
-$LNG['sys_expe_attackname_1']				= 'Piraci'; 	
-$LNG['sys_expe_attackname_2'] 				= 'Obcy'; 	
-$LNG['sys_expe_back_home'] 					= 'Twoja flota wróciła z ekspedycji.<br>Flota dostarczyła %s %s, %s %s, %s %s i %s %s.';
+$LNG['sys_expe_nothing_1']					= 'Wyprawa wraca z niczym, nie licząc dziwnych zwierzątek z planety.';
+$LNG['sys_expe_nothing_2']					= 'Ekspedycja zrobiła świetne zdjęcia supernowej, ale poza tym wraca z niczym. Zdjęcie za to ma szanse na najlepsze zdjęcie roku.';
+$LNG['sys_expe_nothing_3']					= 'Wirus komputerowy spraliżował systemy nawigacyjne wkrótce po opuszczeniu systemu słonecznego. Wyprawa zakończyła się gdy okazało się że flota lata w kółko.';
+$LNG['sys_expe_nothing_4']					= 'Spotkano nieznaną formę życia, w postaci czystej energii która zadziała hipnotycznie na załogę, stała i się wpatrywała w to dziwne zjawisko. Gdy ludzie się otrząsnęli zdecydowali zawrócić';
+$LNG['sys_expe_nothing_5']					= 'Teraz już wiadomo że czerowna anomalia klasy 5 działa nietylko haotycznie na systemy komputerowe, ale również halucogennie na załogę. Nic więcej wyprawa nie wniosła';
+$LNG['sys_expe_nothing_6']					= 'Skan sektoru przynosi pierwsze obiecujące znaki, jednak to tylko anomalia i flota wraca z niczym';
+$LNG['sys_expe_nothing_7']					= 'Być może kapitan musiał by obchodzić urodziny na tej paskudnej odległej planecie, ale panujący wirus żółtej febry zmusił dużą część załogi do przebywania na oddziałach szpitalnych. Z powodu braku pracowników flota musiała zawrócić. <br><b>Cel Misja: Nieosiągnięty</b>';
+$LNG['sys_expe_nothing_8']					= 'Twoja wyprawa zawarła znajomość z kompletną pustką w przestrzeni... coś niespotykanego... <br><b>Misja: Niewykonana</b>';
+$LNG['sys_expe_nothing_9']					= 'Awaria reaktora statku dowództwa prawie zniszczyła wyprawę, ale kilku zdolnych techników opanowało kryzys, wyprawa wraca z niczym.';
+$LNG['sys_expe_attack_1_1_1']				= 'Jeden z kosmicznych piratów deperacko starał się przejąć naszą ekspedycję';
+$LNG['sys_expe_attack_1_1_2']				= 'Jacyś prymitiwni barbarzyńcy poruszający się czymś co nie powinno być statkiem kosmicznym, jednak są waleczni i zaatakowali nas.';
+$LNG['sys_expe_attack_1_1_3']				= 'Przechwyciliśmy kilka komunikatów piratów... najwyraźniej zostaniemy zaatakowani';
+$LNG['sys_expe_attack_1_1_4']				= 'Zostaliśmy zmuszeni do walki z piratami, na szczęście nie byli zbyt liczni';
+$LNG['sys_expe_attack_1_1_5']				= 'Nasza flota informuje że niektóre Moa Tikarr i jej dzikie psy żądają naszej kapitulacji. Jeśli to prawda musimy brać pod uwagę atak z zaskoczenia.';
+$LNG['sys_expe_attack_1_2_1']				= 'Twoja ekspedycja miała pecha i wpadła w zaplanowaną pułapkę piratów.';
+$LNG['sys_expe_attack_1_2_2']				= 'Trafiliśmy na zasadzke, walka była nieunikniona.';
+$LNG['sys_expe_attack_1_2_3']				= 'Dostaliśmy wezwanie o pomoc. Na miejscu okazało się iż wezwanie to pułapka piratów, walka była nieunikniona';
+$LNG['sys_expe_attack_1_3_1']				= 'Przechwycone sygnały okazały się że są z tego systemu, a dokładniej z bazy piratów. Nasza obecność w tym sektorze nie napełniła ich zbytnią radością';
+$LNG['sys_expe_attack_1_3_2']				= 'Flota nie zgłasza ciężkich walk z piratami!';
+$LNG['sys_expe_attack_2_1_1']				= 'Twoja flota miała pierwszy kontakt z nieznaną cywilizają, zresztą niezbyt szczęśliwy.';
+$LNG['sys_expe_attack_2_1_2']				= 'Jakieś statki pojawiające się ni stąd ni zowąd atakują naszą ekspedycję.';
+$LNG['sys_expe_attack_2_1_3']				= 'Twoja ekspedycja została zaatakowana przez małą grupę nieznanych statków';
+$LNG['sys_expe_attack_2_1_4']				= 'Ekspedycja raportuje kontakt z nieznanymi statkami, nie udało nam się zdekodować wiadomości ale wygląda na to że przygotowują się do atak.';
+$LNG['sys_expe_attack_2_2_1']				= 'Nieznane statki kosmiczne atakują naszą ekspedycje!';
+$LNG['sys_expe_attack_2_2_2']				= 'Twoja wyprawa trafiła na nieznaną rasę, okazało się że chyba naruszyłeś ich teretorium, a oni są niezwykle agresywni i wojowniczy';
+$LNG['sys_expe_attack_2_2_3']				= 'Połącznie z naszą ekspedycją zostało utracone, o ile ostatni raport został odcczytany prawidłowo, flota była pod ciężkim ostrzałem niezidentyfikowanych jednostek';
+$LNG['sys_expe_attack_2_3_1']				= 'Raport floty, trwają ciężkie walki.';
+$LNG['sys_expe_attack_2_3_2']				= 'Duża flota krystalicznych statków nieznanego pochodzenia jest na kursie kolizyjnym, musimy przygotować się na najgorsze';
+$LNG['sys_expe_attackname_1']				= 'Piraci';
+$LNG['sys_expe_attackname_2']				= 'Obcy';
+$LNG['sys_expe_back_home']					= 'Twoja flota wróciła z ekspedycji.<br>Flota dostarczyła %s %s, %s %s, %s %s i %s %s.';
 $LNG['sys_expe_back_home_without_dm']		= 'Twoja flota wróciła z ekspedycji.';
 $LNG['sys_expe_back_home_with_dm']			= 'Twoja flota wróciła z ekspedycji.<br>Flota znalazła (%s)%s częsciowo zniszczone zostały zezłomowane. <br> %s zostały uratowane.';
-$LNG['sys_mess_transport'] 					= 'Transport';
+$LNG['sys_mess_transport']					= 'Transport';
 $LNG['sys_tran_mess_owner']		 			= 'Jedna z twoich flot osiągneła planetę %s %s i dostarczyła %s %s, %s %s i %s %s.';
-$LNG['sys_tran_mess_user'] 		 			= 'Pokojowo nastawiona flota z  %s %s osiągneła %s %s i dostarczyła %s %s, %s %s i %s %s.';
-$LNG['sys_mess_fleetback'] 					= 'Powrót floty';
-$LNG['sys_tran_mess_back'] 					= 'Jedna z twoich flot wróciła z planety %s %s.';
+$LNG['sys_tran_mess_user']		 			= 'Pokojowo nastawiona flota z  %s %s osiągneła %s %s i dostarczyła %s %s, %s %s i %s %s.';
+$LNG['sys_mess_fleetback']					= 'Powrót floty';
+$LNG['sys_tran_mess_back']					= 'Jedna z twoich flot wróciła z planety %s %s.';
 $LNG['sys_recy_gotten'] 					= 'Po osiągnięciu celu twoje recyklery zebrały %s %s i %s %s';
-$LNG['sys_gain'] 				  			= 'Profit';
-$LNG['sys_irak_subject'] 				  	= 'Rakiety?';
-$LNG['sys_irak_no_def'] 				  	= 'Ta planeta nie posiada żadnej obrony';
-$LNG['sys_irak_no_att'] 				  	= 'Wszystkie twoje rakiety zostały zestrzelone.';
-$LNG['sys_irak_def'] 					  	= '%d twoich rakiet zostało zestrzlonych.';
+$LNG['sys_gain']							= 'Profit';
+$LNG['sys_irak_subject']					= 'Rakiety?';
+$LNG['sys_irak_no_def']						= 'Ta planeta nie posiada żadnej obrony';
+$LNG['sys_irak_no_att']						= 'Wszystkie twoje rakiety zostały zestrzelone.';
+$LNG['sys_irak_def']						= '%d twoich rakiet zostało zestrzlonych.';
 $LNG['sys_irak_mess']						= 'Międzyplanetarne rakiety  (%d) z %s na planetę %s <br><br>';
-$LNG['sys_gain'] 				  			= 'Profit';
-$LNG['sys_fleet_won'] 						= 'Jedna z twoich flot wraca z ataku na %s %s. Zdobyłeś %s %s, %s %s i %s %s ';
-$LNG['sys_lost'] 							= 'Przegrana';
-$LNG['sys_debris'] 							= 'Wielkośc pola zniszczeń';
-$LNG['sys_destruc_title']       		   	= 'Następujące floty z misją zniszcz księżyc:';
-$LNG['sys_mess_destruc_report']  		  	= 'Raport: Zniszczenie księżyca';
+$LNG['sys_gain']							= 'Profit';
+$LNG['sys_fleet_won']						= 'Jedna z twoich flot wraca z ataku na %s %s. Zdobyłeś %s %s, %s %s i %s %s ';
+$LNG['sys_lost']							= 'Przegrana';
+$LNG['sys_debris']							= 'Wielkośc pola zniszczeń';
+$LNG['sys_destruc_title']					= 'Następujące floty z misją zniszcz księżyc:';
+$LNG['sys_mess_destruc_report']				= 'Raport: Zniszczenie księżyca';
 $LNG['sys_raport_not_found']				= 'Nieprawidłowy id bitwy';
 
-$LNG['sys_destruc_lune']          		 	= 'Szansa na zniszczenie księżyca to: %d%% ';
-$LNG['sys_destruc_rip']          			= 'Prawdopodobieństwo samozniszczenia floty to: %d%%';
-$LNG['sys_destruc_stop']      			 	= 'Obrońca zablokował zniszczenie księżyca.';
-$LNG['sys_destruc_mess1']       		   	= 'Gwiazdy śmierci skierowały swoje ogromne działa na księżyc. ';
-$LNG['sys_destruc_mess']        		   	= 'Flota z planety [%d:%d:%d] dotarła na księżyc [%d:%d:%d].';
-$LNG['sys_destruc_echec']       		   	= 'Trzęsienia ziemi przetaczają się po planecie, lecz coś idzie nie tak : gwiazdy śmierci implodują rozpadając się na tysiąc kawałków. <br>Niestety fala uderzeniowa niszczy kompletnie flote.';
-$LNG['sys_destruc_reussi']      		   	= 'Potężne dziła giazd śmierci rozniosły kśiężyc na kawałki <br>Księżyc został zniszczony.';
-$LNG['sys_destruc_null']        		   	= 'Atak się nie powiódł.<br> Księżyc nie został zniszczony.';
+$LNG['sys_destruc_lune']					= 'Szansa na zniszczenie księżyca to: %d%% ';
+$LNG['sys_destruc_rip']						= 'Prawdopodobieństwo samozniszczenia floty to: %d%%';
+$LNG['sys_destruc_stop']					= 'Obrońca zablokował zniszczenie księżyca.';
+$LNG['sys_destruc_mess1']					= 'Gwiazdy śmierci skierowały swoje ogromne działa na księżyc. ';
+$LNG['sys_destruc_mess']					= 'Flota z planety [%d:%d:%d] dotarła na księżyc [%d:%d:%d].';
+$LNG['sys_destruc_echec']					= 'Trzęsienia ziemi przetaczają się po planecie, lecz coś idzie nie tak : gwiazdy śmierci implodują rozpadając się na tysiąc kawałków. <br>Niestety fala uderzeniowa niszczy kompletnie flote.';
+$LNG['sys_destruc_reussi']					= 'Potężne dziła giazd śmierci rozniosły kśiężyc na kawałki <br>Księżyc został zniszczony.';
+$LNG['sys_destruc_null']					= 'Atak się nie powiódł.<br> Księżyc nie został zniszczony.';
 
 $LNG['fcp_colony']							= 'Kolonia';
 $LNG['fl_simulate']							= 'Symulacja';
 
+$LNG['type_mission'][1]						= 'Atak';
+$LNG['type_mission'][2]						= 'Atak łączony';
+$LNG['type_mission'][3]						= 'Transport';
+$LNG['type_mission'][4]						= 'Stacjonuj';
+$LNG['type_mission'][5]						= 'Zostań';
+$LNG['type_mission'][6]						= 'Szpieguj';
+$LNG['type_mission'][7]						= 'Kolonizuj';
+$LNG['type_mission'][8]						= 'Recykling';
+$LNG['type_mission'][9]						= 'Zniszcz';
+$LNG['type_mission'][11]					= 'W poszukiwaniu DM';
+$LNG['type_mission'][15]					= 'Ekspedycja';
 
-$LNG['type_mission'][1]  					= 'Atak';
-$LNG['type_mission'][2]  					= 'Atak łączony';
-$LNG['type_mission'][3]  					= 'Transport';
-$LNG['type_mission'][4]  					= 'Stacjonuj';
-$LNG['type_mission'][5]  					= 'Zostań';
-$LNG['type_mission'][6]  					= 'Szpieguj';
-$LNG['type_mission'][7]  					= 'Kolonizuj';
-$LNG['type_mission'][8]  					= 'Recykling';
-$LNG['type_mission'][9]  					= 'Zniszcz';
-$LNG['type_mission'][11]  					= 'W poszukiwaniu DM';
-$LNG['type_mission'][15] 					= 'Ekspedycja';
-
-// Translated into Polish by Sirgomo&Alojz. All rights reversed (C) 2012
 ?>
