@@ -280,7 +280,7 @@ $LNG['cs_no_view']						= 'Ukryj adminów';
 
 
 //---------------	LISTA DE ERRORES - ERROR LIST - FEHLERLISTE - LISTA BŁĘDÓ	------------------------//
-$LNG['er_errors']		= ' Błąd';
+$LNG['er_errors']		= 'Błąd';
 $LNG['er_error_list']	= 'Lista błędów';
 $LNG['er_dlte_all']		= 'Usuń wszystkie';
 $LNG['er_type']			= 'Typ';
@@ -289,18 +289,18 @@ $LNG['er_data']			= 'Data';
 
 
 //---------------	LISTA DE MENSAJES - MESSAGES IST - LISTA WIADOMOŚCI	------------------------//
-$LNG['ml_message_list']			= 'Message list';
-$LNG['ml_type_submit']			= 'Submit';
+$LNG['ml_message_list']			= 'Lista Wiadomości';
+$LNG['ml_type_submit']			= 'Tytuł';
 $LNG['ml_id']					= '#ID';
-$LNG['ml_sender']				= 'Sender';
-$LNG['ml_receiver']				= 'Receiver';
-$LNG['ml_date']					= 'Date';
-$LNG['ml_type']					= 'Message type';
-$LNG['ml_subject']				= 'Subject';
-$LNG['ml_date_range']			= 'Period';
+$LNG['ml_sender']				= 'Nadawca';
+$LNG['ml_receiver']				= 'Odbiorca';
+$LNG['ml_date']					= 'Data';
+$LNG['ml_type']					= 'Typ Wiadomości';
+$LNG['ml_subject']				= 'Temat';
+$LNG['ml_date_range']			= 'Czas';
 
 
-$LNG['ml_page']					= 'Page';
+$LNG['ml_page']					= 'Storna';
 //###########################################################//
 
 
@@ -347,7 +347,7 @@ $LNG['se_game_name']					= 'Nazwa (Gry)';
 $LNG['se_uni_name']						= 'Nazwa (Universum/Świata)';
 $LNG['se_lang']							= 'Język';
 $LNG['se_general_speed']				= 'Szybkość gry';
-$LNG['se_energy_speed']		= 'Energy Factor';
+$LNG['se_energy_speed']					= 'Szybkość Elektrowni';
 $LNG['se_normal_speed']					= 'Normalna szybkość: 1 <br> Zalecana maksymalna szybkość: 20';
 $LNG['se_normal_speed_resoruces']		= 'Normalna szybkość wydobycia zasobów: 1 <br> Zalecana maksymalna szybkość: 20';
 $LNG['se_normal_speed_fleet']			= 'Normalna szybkość flot: 1 <br> Zalecana maksymalna szybkość: 20';
@@ -516,10 +516,10 @@ $LNG['se_dst_sel'][0]					= 'Nie';
 $LNG['se_dst_sel'][1]					= 'Tak';
 $LNG['se_dst_sel'][2]					= 'Automatycznie';
 $LNG['se_max_dm_missions']				= 'Max. Dark Metter podczas misji szukaj Dark Metter (ekspedycja)';
-$LNG['se_disclamerAddress']				= 'Address';
-$LNG['se_disclamerPhone']				= 'Phone number';
-$LNG['se_disclamerMail']				= 'Email address';
-$LNG['se_disclamerNotice']				= 'More information';
+$LNG['se_disclamerAddress']				= 'Adres';
+$LNG['se_disclamerPhone']				= 'Numer Telefonu';
+$LNG['se_disclamerMail']				= 'Adres E-mail';
+$LNG['se_disclamerNotice']				= 'Więcej Informacji';
 
 //###########################################################//
 
@@ -631,8 +631,8 @@ $LNG['mu_clear_cache']				= 'Usuń cache';
 $LNG['mu_vertify']					= 'Sprawdź pliki gry!'; 
 $LNG['mu_cronjob']					= 'Cronjobs'; 
 $LNG['mu_logs']						= 'Admin Log';
-$LNG['mu_giveaway']					= 'Giveaways';
-$LNG['mu_disclamer']				= 'Contact settings';
+$LNG['mu_giveaway']					= 'Prezenty/Bonusy';
+$LNG['mu_disclamer']				= 'Ustawienia Kontaków';
 
 $LNG['vt_error']					= 'Błąd plików - wymagana aktualizacja!';
 $LNG['vt_fail']						= 'Zmienione Pliki';
@@ -1211,53 +1211,53 @@ $LNG['log_chatsettings']				= 'Ustawienia Chat';
 $LNG['log_tssettings']					= 'Teamspeak-Konfiguration';
 $LNG['log_uni_short']					= 'Uni';
 $LNG['log_universe']					= 'Universum';
-$LNG['log_disclamersettings']   		= 'Contacts';
+$LNG['log_disclamersettings']   		= 'Kontakt';
 
 //Cronjobs
-$LNG['cronName']['referral']		= 'Referral Bonus';
-$LNG['cronName']['statistic']		= 'Statistics';
-$LNG['cronName']['daily']    		= 'Daily tasks';
-$LNG['cronName']['cleaner'] 		= 'Delete old data';
-$LNG['cronName']['inactive']		= 'Delete inactive';
-$LNG['cronName']['teamspeak']		= 'Teamspeak data update';
+$LNG['cronName']['referral']		= 'Premia';
+$LNG['cronName']['statistic']		= 'Statystyki';
+$LNG['cronName']['daily']    		= 'Codzienne zadania';
+$LNG['cronName']['cleaner'] 		= 'Usuń stare dane';
+$LNG['cronName']['inactive']		= 'Usuń nieaktywne';
+$LNG['cronName']['teamspeak']		= 'Teamspeak aktualizacja danych';
 
 
 $LNG['cronjob_id']  				= 'ID';
-$LNG['cronjob_name']				= 'Name';
-$LNG['cronjob_min'] 				= 'Minute';
-$LNG['cronjob_hours']				= 'Hour';
-$LNG['cronjob_dom'] 				= 'Day';
-$LNG['cronjob_month']				= 'Month';
-$LNG['cronjob_dow'] 				= 'Day of Week';
+$LNG['cronjob_name']				= 'Nazwa';
+$LNG['cronjob_min'] 				= 'Minuty';
+$LNG['cronjob_hours']				= 'Godziny';
+$LNG['cronjob_dom'] 				= 'Dni';
+$LNG['cronjob_month']				= 'Miesiące';
+$LNG['cronjob_dow'] 				= 'Dzień tygodnia';
 $LNG['cronjob_class']				= 'class';
 $LNG['cronjob_nextTime']			= 'Next Time';
-$LNG['cronjob_inActive']			= 'Active';
-$LNG['cronjob_lock']				= 'locked';
-$LNG['cronjob_edit']				= 'Edit';
-$LNG['cronjob_delete']				= 'Delete';
+$LNG['cronjob_inActive']			= 'Aktywne';
+$LNG['cronjob_lock']				= 'zamkniete';
+$LNG['cronjob_edit']				= 'Edytowanie';
+$LNG['cronjob_delete']				= 'Kasowanie';
 $LNG['cronjob_headline']			= 'Cronjob ID';
-$LNG['cronjob_new'] 				= 'Create new cron job';
+$LNG['cronjob_new'] 				= 'Nowe zadanie dla cron job';
 
-$LNG['cronjob_desc']				= 'Here follows the input of the invocation times for the Cronjobs. The conditions are and-connected, which means that the cron job will run only if all conditions are met. The simultaneous selection of individual values in "Wochentag" and "Tag" can taking may cause that the cronjob runs irregularly here the "Alle" option should be used when at least one condition selected.<br>"Alle" will take precedence and overrides the settings of the selection list.';
-$LNG['cronjob_desc_name']			= 'Freely selectable name to identify the Cronjobs.';
-$LNG['cronjob_desc_class']			= 'Input of the class to be invoked. Includes/classes/cronjobs/foo.class.php called "foo" must be entered.';
+$LNG['cronjob_desc']				= 'Tu następuje wejście czasów wywołania, do Cronjobs. Warunki są i połączone, co oznacza, że zadanie Cronjobs, będzie działać tylko wtedy, gdy wszystkie warunki są spełnione. Jednoczesny wybór poszczególnych wartości w "Cronjobs" oraz "Nazwa/TAG" może spowodować, że crona wywoływany przebiega nieregularnie tutaj "Alle" opcja powinna być używana wtedy, gdy przynajmniej jeden warunek wybrany. "Alle" będą miały pierwszeństwo i zastępuje ustawienia listy wyboru.';
+$LNG['cronjob_desc_name']			= 'Nazwa Cronjobs.';
+$LNG['cronjob_desc_class']			= 'Wejście klas. Includes / klas / cronjobs / foo.class.php nazwie "foo" musi być wypełnione.';
 
-$LNG['cronjob_error_name']			= 'There was no name enter!';
-$LNG['cronjob_error_min']			= 'It defined no minutes!';
-$LNG['cronjob_error_hours']			= 'It defined no hours!';
-$LNG['cronjob_error_month']			= 'It defined no months!';
-$LNG['cronjob_error_dow']			= 'No day of the week defined!';
-$LNG['cronjob_error_dom']			= 'It defined no days!';
-$LNG['cronjob_error_class']			= 'It specified no class!';
-$LNG['cronjob_error_filenotfound']	= 'The specified file was not found: ';
-$LNG['cronjob_selectall']			= 'All';
+$LNG['cronjob_error_name']			= 'Niepodano nazwy wejścia!';
+$LNG['cronjob_error_min']			= 'Błędnie określona minuta!';
+$LNG['cronjob_error_hours']			= 'Błędnie określona godzina!';
+$LNG['cronjob_error_month']			= 'Błędnie określony miesiąc!';
+$LNG['cronjob_error_dow']			= 'Błędnie określonym dzień tygodnia!';
+$LNG['cronjob_error_dom']			= 'Błędnie określony dzień!';
+$LNG['cronjob_error_class']			= 'Błędnie określenie klasy!';
+$LNG['cronjob_error_filenotfound']	= 'Określony plik nie został znaleziony: ';
+$LNG['cronjob_selectall']			= 'Wszystko';
 
-$LNG['cronjob_lock']				= 'Locked';
-$LNG['cronjob_is_lock'] 			= 'Yes';
-$LNG['cronjob_is_unlock']			= 'No';
+$LNG['cronjob_lock']				= 'Zamknięcie';
+$LNG['cronjob_is_lock'] 			= 'Tak';
+$LNG['cronjob_is_unlock']			= 'NIe';
 
-$LNG['cronjob_inactive']			= 'Yes';
-$LNG['cronjob_active']  			= 'No';
+$LNG['cronjob_inactive']			= 'Tak';
+$LNG['cronjob_active']  			= 'Nie';
 
 // Giveaway
 $LNG['ga_success']						= 'Udane!';
