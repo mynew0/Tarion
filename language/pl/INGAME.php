@@ -1,6 +1,8 @@
 <?php
 
 $LNG['Messages']							= 'Wiadomości';
+
+$LNG['PM']									= '[PM]';
 $LNG['write_message']						= 'Napisz wiadomość';
 
 $LNG['ready']								= 'Gotowe';
@@ -70,7 +72,6 @@ $LNG['lm_statistics']						= 'Lista Graczy';
 $LNG['lm_search']							= 'Szukaj';
 $LNG['lm_options']							= 'Opcje';
 $LNG['lm_banned']							= 'Zbanowani';
-$LNG['lm_contact']							= 'kontakt';
 $LNG['lm_forums']							= 'Forum';
 $LNG['lm_logout']							= 'Wyloguj';
 $LNG['lm_administration']					= 'Administracja';
@@ -85,7 +86,7 @@ $LNG['lm_battlesim']						= 'Symulator walki';
 $LNG['lm_playercard']                       = 'Informacje o graczu';
 $LNG['lm_info']                     		= 'Informacje';
 $LNG['lm_disclamer']						= 'Administracja';
-	
+
 //----------------------------------------------------------------------------//
 //OVERVIEW
 
@@ -148,6 +149,9 @@ $LNG['gl_vacation']							= 'Urlop';
 $LNG['gl_banned']							= 'Zbanowany';
 $LNG['gl_inactive_seven']					= '7 dni nie aktywny';
 $LNG['gl_inactive_twentyeight']				= '28 dni nie aktywny';
+$LNG['gl_short_enemy']						= '';
+$LNG['gl_short_friend']						= '';
+$LNG['gl_short_member']						= '';
 $LNG['gl_short_strong']						= 's';
 $LNG['gl_short_newbie']						= 'n';
 $LNG['gl_short_vacation']					= 'u';
@@ -195,7 +199,6 @@ $LNG['gl_temperature']						= 'Temperatura';
 $LNG['gl_phalanx']							= 'Falanga';
 $LNG['gl_planet_destroyed']					= 'Zniszczona planeta';
 $LNG['gl_playercard']						= 'Karta gracza';
-$LNG['gl_player']							= 'Gracz';
 $LNG['gl_in_the_rank']						= 'Gracz %s pozycja w rankingu %d';
 $LNG['gl_activity']                         = '(*)';
 $LNG['gl_activity_inactive']                = '(%d min)';
@@ -261,9 +264,6 @@ $LNG['fl_order']							= 'Misja';
 $LNG['fl_new_mission_title']				= 'Nowa misja: Wybierz flote';
 $LNG['fl_ship_type']						= 'Typ statków';
 $LNG['fl_ship_available']					= 'Dostępne';
-$LNG['fl_planet']							= 'Planeta';
-$LNG['fl_debris']							= 'Pole zniszczeń';
-$LNG['fl_moon']								= 'Księżyc';
 $LNG['fl_planet_shortcut']					= '(P)';
 $LNG['fl_debris_shortcut']					= '(D)';
 $LNG['fl_moon_shortcut']					= '(M)';
@@ -295,6 +295,8 @@ $LNG['fl_max']								= 'max';
 $LNG['fl_hours']							= 'Godzina(y)';
 $LNG['fl_resources_left']					= 'Pozostało';
 $LNG['fl_all_resources']					= 'Załaduj max zasobów';
+$LNG['fl_multi_alarm']						= 'Alarm!! - Nie możesz tego wykonać';
+$LNG['fl_admins_cannot_be_attacked']		= 'Administrator serwisu nie może zostać zaatakowany';
 $LNG['fl_empty_target']						= 'Brak dostępnych misji (Planeta istnieje ?)';
 $LNG['fl_expedition_alert_message']			= 'Uwaga, Ekspedycja niebezpieczna, mozesz stracić wysłaną flote!';
 $LNG['fl_dm_alert_message']					= 'Bądź ostrożny jeśli %s %s został znaleziony, flota została zniszczona!';
@@ -303,8 +305,6 @@ $LNG['fl_expedition_fleets_limit']			= 'Limit ekspedycji osiągnięty!';
 $LNG['fl_week_player']						= 'Gracz bardzo słaby!';
 $LNG['fl_strong_player']					= 'Gracz bardzo mocny!';
 $LNG['fl_in_vacation_player']				= 'Gracz w trybie urlop';
-$LNG['fl_admins_cannot_be_attacked']		= 'Administrator serwisu nie może zostać zaatakowany';
-$LNG['fl_multi_alarm']						= 'Alarm!! - Nie możesz tego wykonać';
 $LNG['fl_no_slots']							= 'Sloty niedostępne!';
 $LNG['fl_planet_populed']					= 'Ta planeta jest zajęta!';
 $LNG['fl_no_same_alliance']					= 'Ten gracz musi być w twoim sojuszu, lub na liście znajomych!';
@@ -337,26 +337,25 @@ $LNG['fl_acs_change_name']					= 'Podaj nową nazwe';
 $LNG['fl_error_not_avalible']				= 'Planeta nie może być obecnie opuszczona!';
 $LNG['fl_error_empty_derbis']				= 'Brak pola zniszczeń!';
 $LNG['fl_error_no_moon']					= 'Brak księżyca!';
-$LNG['fl_error_same_planet']				= 'Start i cel to ta sama planeta!';
-$LNG['fl_send_error'][3]					= 'Start i cel to ta sama planeta!';
-$LNG['fl_send_error'][4]					= 'Zły cel';
-$LNG['fl_send_error'][5]					= 'Brak załadowanych zasobów!';
-$LNG['fl_send_error'][6]					= 'Brak dostępnych slotów!';
-$LNG['fl_send_error'][7]					= 'Brak planety docelowej';
-$LNG['fl_send_error'][8]					= 'Brak wystarczającej floty.';
-$LNG['fl_send_error'][9]					= 'Nie możesz wysłać więcej ekspedycji!';
-$LNG['fl_send_error'][10]					= 'Twoja technologia ekspedycji jest nie wystarczająco rozwinięta!';
-$LNG['fl_send_error'][12]					= 'Gracz w trybie urlop!';
-$LNG['fl_send_error'][13]					= 'Bash-Osłona';
-$LNG['fl_send_error'][14]					= 'Nie możesz atakować admina';
-$LNG['fl_send_error'][15]					= 'Gracz jest chroniony jako nowy';
-$LNG['fl_send_error'][16]					= 'Gracz jest za mocny!';
-$LNG['fl_send_error'][17]					= 'Na celu brak depozytu sojuszniczego';
-$LNG['fl_send_error'][18]					= 'Gracz musi być twoim sojusznikiem lub na liście znajomych!';
-$LNG['fl_send_error'][19]					= 'Brak wystarczającej ilości deuterium';
-$LNG['fl_send_error'][20]					= 'Nie masz wystarczająco miejsca w ładowniach.';
-$LNG['fl_send_error'][21]					= 'Pole zniszczeń nie istnieje!';
-$LNG['fl_send_error'][22]					= 'Błędna misja lub planeta';
+$LNG['fl_error_same_planet']				= 'Start and destination planet are identical!';
+$LNG['fl_invalid_target']					= 'No valid target';
+$LNG['fl_no_noresource']					= 'No raw materials loaded!';
+$LNG['fl_no_target']						= 'No available target planet';
+$LNG['fl_not_all_ship_avalible']			= 'Not all ships present.';
+$LNG['fl_no_expedition_slot']				= 'You cant start more expeditions!';
+$LNG['fl_invalid_mission']					= 'Invalid mission';
+$LNG['fl_bash_protection']					= 'Bash Rule';
+$LNG['fl_admin_attack']						= 'You can attack the administrators';
+$LNG['fl_target_exists']					= 'Target planet';
+$LNG['fl_target_not_exists']				= 'Target planet does not exist!';
+$LNG['fl_only_planets_colonizable']			= 'Only planets can be colonized.';
+$LNG['fl_player_is_noob']					= 'Player is in the Noob Protection!';
+$LNG['fl_player_is_strong']					= 'Player is too strong!';
+$LNG['fl_tech_for_position_required']		= 'You need %s level %d, in order to occupy this position!';
+$LNG['fl_no_hold_depot']					= 'No Alliance Depot is located on the target.';
+$LNG['fl_not_enough_deuterium']				= 'Not enough deuterium available.';
+$LNG['fl_not_enough_space']					= 'You have not enough cargo space available.';
+$LNG['fl_hold_time_not_exists']				= 'Invalid retention time.';
 
 
 //----------------------------------------------------------------------------//
@@ -431,7 +430,6 @@ $LNG['of_lvl']								= 'Level';
 $LNG['of_dm_trade']							= '%s - Store';
 $LNG['of_still']							= 'still';
 $LNG['of_active']							= 'aktywny';
-$LNG['of_update']							= 'aktualizacja';
 
 
 //----------------------------------------------------------------------------//
@@ -491,6 +489,7 @@ $LNG['in_dest_durati'] 						= 'Czas niszczenia';
 $LNG['in_missilestype']   					= 'Rodzaj pocisku';
 $LNG['in_missilesamount']    				= 'Ilość pocisków';
 $LNG['in_engine'] 							= 'Napęd';
+$LNG['in_bonus'] 							= 'Bonus:';
 
 //----------------------------------------------------------------------------//
 //MESSAGES
@@ -518,7 +517,6 @@ $LNG['mg_date']								= 'Data';
 $LNG['mg_from']								= 'od';
 $LNG['mg_to']								= 'do';
 $LNG['mg_subject']							= 'Temat';
-$LNG['mg_confirm_delete']					= 'Potwierdź';
 $LNG['mg_message_title']					= 'Wiadomości';
 $LNG['mg_message_type']						= 'Wiadomości typu';
 $LNG['mg_total']							= 'Łącznie';
@@ -536,6 +534,10 @@ $LNG['mg_empty_text']						= 'Wpisz tekst';
 $LNG['mg_answer_to']						= 'Odpowiedz do:';
 $LNG['mg_write_mail_to_ops']				= 'Napisz wiadomość do';
 $LNG['mg_page']								= 'Strona ';
+$LNG['mg_read_marked']						= 'Mark selected messages as read';
+$LNG['mg_read_type_all']					= 'Mark all messages of this type as read';
+$LNG['mg_read_all']							= 'Mark all messages as read';
+$LNG['mg_confirm']							= 'Confirm';
 
 //----------------------------------------------------------------------------//
 //ALLIANCE
@@ -680,14 +682,6 @@ $LNG['al_legend_right_hand']				= 'Prawa reka (konieczne by przenieść range za
 $LNG['al_requests']							= 'Podania';
 $LNG['al_circular_message']					= 'Wiadomości ogólne';
 $LNG['al_leave_alliance']					= 'Opuść sojusz';
-$LNG['al_Gesamtk']     						= 'Walki';
-$LNG['al_Erfolg']       					= 'Fight Odds';
-$LNG['al_Siege']        					= 'Wygrał';
-$LNG['al_Drawp']        					= 'Remis';
-$LNG['al_Loosi']        					= 'Przegrał';
-$LNG['al_KGesamt']      					= 'Łącznie walk';
-$LNG['al_Allyquote']    					= 'Walki członków sojuszu';
-$LNG['al_Quote']        					= 'Zwycięstwa';
 $LNG['al_unitsshut']    					= 'Zniszczone jednostki';
 $LNG['al_unitsloos']    					= 'Stracone jednostki';
 $LNG['al_tfmetall']     					= 'Łączny zlom metal';
@@ -841,6 +835,7 @@ $LNG['sh_alliance']							= 'Sojusz';
 $LNG['sh_planet']							= 'Planeta';
 $LNG['sh_coords']							= 'Pozycja';
 $LNG['sh_position']							= 'Rank';
+$LNG['sh_loading']							= '(Loading ...)';
 
 //----------------------------------------------------------------------------//
 //OPTIONS
@@ -901,6 +896,7 @@ $LNG['op_user_name_no_alphanumeric']		= 'Podaj nazwe użytkownika, tylko cyfry i
 $LNG['op_change_name_pro_week']				= 'Możesz zmienić nazwe użytkownika raz w tygodniu';
 $LNG['op_change_name_exist']				= 'Taka nazwa %s już istnieje';
 $LNG['op_active_build_messages']			= 'Kolejka nowych wiadomości';
+$LNG['op_active_spy_messages_mode']			= 'Enable Summarized Spy Reports';
 $LNG['op_dst_mode']							= 'Czas letni?';
 $LNG['op_dst_mode_sel'][0]					= 'Nie';
 $LNG['op_dst_mode_sel'][1]					= 'Tak';
@@ -955,6 +951,7 @@ $LNG['cff_mission_target_mip']				= 'Atak rakietami (%d) od gracza %s z %s %s %s
 //----------------------------------------------------------------------------//
 // EXTRA LANGUAGE FUNCTIONS
 $LNG['fcm_universe']						= 'Universum';
+$LNG['fcm_mainplanet']						= 'Main Planet';
 $LNG['fcm_planet']							= 'Planeta';
 $LNG['fcm_moon']							= 'Księżyc';
 $LNG['fcm_info']							= 'Informacje';
@@ -966,7 +963,7 @@ $LNG['sys_refferal_from']        	 		= 'System';
 $LNG['sys_refferal_title']        	 		= 'Bonus dla gracza %s';
 $LNG['sys_refferal_text']					= 'Gracz %s zrekrutowany przez ciebie osiągnoł %s punktów.<br><br>Zostałeś wynagrodzony za aktywnego gracza, otrzymujesz %s %s';
 $LNG['sys_closed_game']        	 			= 'Gra chwilowo nie dostępna:';
-
+$LNG['spec_mail_inactive_title']  			= '%s - Reminder';
 //----------------------------------------------------------------------------//
 // CombatReport.php
 $LNG['cr_lost_contact']						= 'Kontakt z tą flotą został utracony. ';
