@@ -289,18 +289,18 @@ $LNG['er_data']			= 'Data';
 
 
 //---------------	LISTA DE MENSAJES - MESSAGES IST - LISTA WIADOMOŚCI	------------------------//
-$LNG['ml_message_list']			= 'Message list';
-$LNG['ml_type_submit']			= 'Submit';
-$LNG['ml_id']					= '#ID';
-$LNG['ml_sender']				= 'Sender';
-$LNG['ml_receiver']				= 'Receiver';
-$LNG['ml_date']					= 'Date';
-$LNG['ml_type']					= 'Message type';
-$LNG['ml_subject']				= 'Subject';
-$LNG['ml_date_range']			= 'Period';
-
-
-$LNG['ml_page']					= 'Page';
+$LNG['ml_message_list']			= 'Lista wiadomości';
+$LNG['ml_page']					= 'Strona';
+$LNG['ml_type']					= 'Typ';
+$LNG['ml_dlte_selection']		= 'Zaznacz do usunięcia';
+$LNG['ml_dlte_since']			= 'Usuń';
+$LNG['ml_dlte_since_button']	= 'Usuń';
+$LNG['ml_date']					= 'Data';
+$LNG['ml_from']					= 'Od';
+$LNG['ml_to']					= 'Do';
+$LNG['ml_subject']				= 'Temat';
+$LNG['ml_content']				= 'Zawartość';
+$LNG['ml_see_all_messages']		= 'Zobacz wszystkie wiadomości';
 //###########################################################//
 
 
@@ -347,7 +347,6 @@ $LNG['se_game_name']					= 'Nazwa (Gry)';
 $LNG['se_uni_name']						= 'Nazwa (Universum/Świata)';
 $LNG['se_lang']							= 'Język';
 $LNG['se_general_speed']				= 'Szybkość gry';
-$LNG['se_energy_speed']					= 'Energy Factor';
 $LNG['se_normal_speed']					= 'Normalna szybkość: 1 <br> Zalecana maksymalna szybkość: 20';
 $LNG['se_normal_speed_resoruces']		= 'Normalna szybkość wydobycia zasobów: 1 <br> Zalecana maksymalna szybkość: 20';
 $LNG['se_normal_speed_fleet']			= 'Normalna szybkość flot: 1 <br> Zalecana maksymalna szybkość: 20';
@@ -516,11 +515,6 @@ $LNG['se_dst_sel'][0]					= 'Nie';
 $LNG['se_dst_sel'][1]					= 'Tak';
 $LNG['se_dst_sel'][2]					= 'Automatycznie';
 $LNG['se_max_dm_missions']				= 'Max. Dark Metter podczas misji szukaj Dark Metter (ekspedycja)';
-$LNG['se_disclamerAddress']				= 'Address';
-$LNG['se_disclamerPhone']				= 'Phone number';
-$LNG['se_disclamerMail']				= 'Email address';
-$LNG['se_disclamerNotice']				= 'More information';
-
 
 //###########################################################//
 
@@ -621,6 +615,7 @@ $LNG['mu_planets_options']			= 'Opcje Planet';
 $LNG['mu_user_logs']				= 'Log';
 $LNG['mu_support']                 	= 'Pomoc techniczna';
 $LNG['mu_module']                 	= 'Moduły';
+$LNG['mu_update']                 	= 'Aktualizacje gry';
 $LNG['mu_mod_update']              	= 'Wersja kontrolna';
 $LNG['mu_fb_options'] 				= 'Przyłącz do Facebooka';
 $LNG['mu_ts_options'] 				= 'Teamspeak Optionen';
@@ -630,10 +625,9 @@ $LNG['mu_news']						= 'Nowości';
 $LNG['mu_multiip_page']				= 'MultiIP'; 
 $LNG['mu_clear_cache']				= 'Usuń cache'; 
 $LNG['mu_vertify']					= 'Sprawdź pliki gry!'; 
-$LNG['mu_cronjob']					= 'Cronjobs'; 
-$LNG['mu_logs']						= 'Admin Log';
-$LNG['mu_giveaway']					= 'Giveaways';
-$LNG['mu_disclamer']				= 'Contact settings';
+$LNG['mu_logs']						= 'Admin-Log';
+$LNG['mu_giveaway']					= 'Bonusy';
+
 
 $LNG['vt_error']					= 'Błąd plików - wymagana aktualizacja!';
 $LNG['vt_fail']						= 'Zmienione Pliki';
