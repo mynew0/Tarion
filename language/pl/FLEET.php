@@ -102,8 +102,6 @@ $LNG['sys_expe_lost_fleet_1']				= 'Wyprawa trafiła na dziwny sygnał radiowy, 
 $LNG['sys_expe_lost_fleet_2']				= 'Niektóre ze bliżeń okazało się niewiarygodnie dobre, to była ostatnia z wysłanych ekspedyccji, która nie zdołała dolecieć z powrotem przed otwarciem się szczeliny, jaką jest czarna dziura.';
 $LNG['sys_expe_lost_fleet_3']				= 'Awaria na okręcie dowództwa doprowadziła do reakcji łańcuchowej.... cała ekspedycja znikła w spektakularnym wybuchu!';
 $LNG['sys_expe_lost_fleet_4']				= 'Flota nie wróciła z nadprzestrzeni. Nikt nie wie co się stało ale wygląda na to że utraciliśmy ją. Naukowcy próbują rozwikłać dziwną zagadke.';
-$LNG['sys_expe_lostnie_fleet_1']            = 'Dzięki szybkiej reakcji twojej załogi udało się uniknąć zniszczenia floty !';
-$LNG['sys_expe_lostnie_fleet_2']            = 'Tylko wyszkolenie twojej załogi uratowało Cię przed kompletną stratą floty !';
 $LNG['sys_expe_time_fast_1']				= 'Nieprzewidziane sprzężenie zwrotne w agregatach energii sprawiło iż flota znacznie szybciej niż się spodziewano, niestety brak raportu o znalezieniu czegokolwiek cennego.';
 $LNG['sys_expe_time_fast_2']				= 'Troche zbyt śmiały nowy dowódca użył do powrotu niestabilnego tunelu podprzestrzennego. Niestety zdarzenie to nie przyniosło żadnych nowych rozwiązań które dało by się wykorzystać';
 $LNG['sys_expe_time_fast_3']				= 'Ekspedycja nie znalazła nic ciekawego w badanym sektorze. Jednakże flota wpadła w dziwne zawirowania słoneczne, co przyśpieszyło jej powrót.';
@@ -160,12 +158,12 @@ $LNG['sys_irak_def'] 					  	= '%d twoich rakiet zostało zestrzlonych.';
 $LNG['sys_irak_mess']						= 'Międzyplanetarne rakiety  (%d) z %s na planetę %s <br><br>';
 $LNG['sys_gain'] 				  			= 'Profit';
 $LNG['sys_fleet_won'] 						= 'Jedna z twoich flot wraca z ataku na %s %s. Zdobyłeś %s %s, %s %s i %s %s ';
-$LNG['sys_perte_attaquant'] 				= 'Straty agresora';
-$LNG['sys_perte_defenseur'] 				= 'Straty obrońcy';
+$LNG['sys_lost'] 							= 'Losses';
 $LNG['sys_debris'] 							= 'Wielkośc pola zniszczeń';
 $LNG['sys_destruc_title']       		   	= 'Następujące floty z misją zniszcz księżyc:';
 $LNG['sys_mess_destruc_report']  		  	= 'Raport: Zniszczenie księżyca';
 $LNG['sys_raport_not_found']				= 'Nieprawidłowy id bitwy';
+
 $LNG['sys_destruc_lune']          		 	= 'Szansa na zniszczenie księżyca to: %d%% ';
 $LNG['sys_destruc_rip']          			= 'Prawdopodobieństwo samozniszczenia floty to: %d%%';
 $LNG['sys_destruc_stop']      			 	= 'Obrońca zablokował zniszczenie księżyca.';
@@ -190,9 +188,6 @@ $LNG['type_mission'][8]  					= 'Recykling';
 $LNG['type_mission'][9]  					= 'Zniszcz';
 $LNG['type_mission'][11]  					= 'W poszukiwaniu DM';
 $LNG['type_mission'][15] 					= 'Ekspedycja';
-
-
-
 
 // Translated into Polish by Sirgomo&Alojz. All rights reversed (C) 2012
 ?>
