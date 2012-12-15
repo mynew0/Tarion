@@ -1,6 +1,6 @@
 <?php
 
-/**zmiana alojz 2-0102
+/**
  *  2Moons
  *  Copyright (C) 2011  Slaver
  *
@@ -63,7 +63,7 @@ $LNG['time_seconds']	= 'Sekunda';
 
 $LNG['info_information']	= 'Informacje o błędach i nowościach <a href="%s" target="tracker">2Moons Board</a><br>Jeśli usuniesz ten link nie będziesz miał prawa do suportu!!!!';
 
-//---------------	¿SI O NO? - YES OR NO? - JA ODER NEIN?	- TAK ALBO NIE------------------------// 
+//---------------	?SI O NO? - YES OR NO? - JA ODER NEIN?	- TAK ALBO NIE------------------------// 
 $LNG['one_is_yes'][1]	= 'Tak';
 $LNG['one_is_yes'][0]	= 'Nie';
 
@@ -289,18 +289,18 @@ $LNG['er_data']			= 'Data';
 
 
 //---------------	LISTA DE MENSAJES - MESSAGES IST - LISTA WIADOMOŚCI	------------------------//
-$LNG['ml_message_list']			= 'Lista wiadomości';
-$LNG['ml_page']					= 'Strona';
-$LNG['ml_type']					= 'Typ';
-$LNG['ml_dlte_selection']		= 'Zaznacz do usunięcia';
-$LNG['ml_dlte_since']			= 'Usuń';
-$LNG['ml_dlte_since_button']	= 'Usuń';
-$LNG['ml_date']					= 'Data';
-$LNG['ml_from']					= 'Od';
-$LNG['ml_to']					= 'Do';
-$LNG['ml_subject']				= 'Temat';
-$LNG['ml_content']				= 'Zawartość';
-$LNG['ml_see_all_messages']		= 'Zobacz wszystkie wiadomości';
+$LNG['ml_message_list']			= 'Message list';
+$LNG['ml_type_submit']			= 'Submit';
+$LNG['ml_id']					= '#ID';
+$LNG['ml_sender']				= 'Sender';
+$LNG['ml_receiver']				= 'Receiver';
+$LNG['ml_date']					= 'Date';
+$LNG['ml_type']					= 'Message type';
+$LNG['ml_subject']				= 'Subject';
+$LNG['ml_date_range']			= 'Period';
+
+
+$LNG['ml_page']					= 'Page';
 //###########################################################//
 
 
@@ -347,6 +347,7 @@ $LNG['se_game_name']					= 'Nazwa (Gry)';
 $LNG['se_uni_name']						= 'Nazwa (Universum/Świata)';
 $LNG['se_lang']							= 'Język';
 $LNG['se_general_speed']				= 'Szybkość gry';
+$LNG['se_energy_speed']		= 'Energy Factor';
 $LNG['se_normal_speed']					= 'Normalna szybkość: 1 <br> Zalecana maksymalna szybkość: 20';
 $LNG['se_normal_speed_resoruces']		= 'Normalna szybkość wydobycia zasobów: 1 <br> Zalecana maksymalna szybkość: 20';
 $LNG['se_normal_speed_fleet']			= 'Normalna szybkość flot: 1 <br> Zalecana maksymalna szybkość: 20';
@@ -515,6 +516,10 @@ $LNG['se_dst_sel'][0]					= 'Nie';
 $LNG['se_dst_sel'][1]					= 'Tak';
 $LNG['se_dst_sel'][2]					= 'Automatycznie';
 $LNG['se_max_dm_missions']				= 'Max. Dark Metter podczas misji szukaj Dark Metter (ekspedycja)';
+$LNG['se_disclamerAddress']				= 'Address';
+$LNG['se_disclamerPhone']				= 'Phone number';
+$LNG['se_disclamerMail']				= 'Email address';
+$LNG['se_disclamerNotice']				= 'More information';
 
 //###########################################################//
 
@@ -615,7 +620,6 @@ $LNG['mu_planets_options']			= 'Opcje Planet';
 $LNG['mu_user_logs']				= 'Log';
 $LNG['mu_support']                 	= 'Pomoc techniczna';
 $LNG['mu_module']                 	= 'Moduły';
-$LNG['mu_update']                 	= 'Aktualizacje gry';
 $LNG['mu_mod_update']              	= 'Wersja kontrolna';
 $LNG['mu_fb_options'] 				= 'Przyłącz do Facebooka';
 $LNG['mu_ts_options'] 				= 'Teamspeak Optionen';
@@ -625,13 +629,15 @@ $LNG['mu_news']						= 'Nowości';
 $LNG['mu_multiip_page']				= 'MultiIP'; 
 $LNG['mu_clear_cache']				= 'Usuń cache'; 
 $LNG['mu_vertify']					= 'Sprawdź pliki gry!'; 
-$LNG['mu_logs']						= 'Admin-Log';
-$LNG['mu_giveaway']					= 'Bonusy';
-
+$LNG['mu_cronjob']					= 'Cronjobs'; 
+$LNG['mu_logs']						= 'Admin Log';
+$LNG['mu_giveaway']					= 'Giveaways';
+$LNG['mu_disclamer']				= 'Contact settings';
 
 $LNG['vt_error']					= 'Błąd plików - wymagana aktualizacja!';
 $LNG['vt_fail']						= 'Zmienione Pliki';
 $LNG['vt_info']						= 'Ta lista zawiera listę zmodyfikowanych plików<br>Jeśli to nie ty dokonałeś zmian, powinieneś przywrócić orginalne pliki!.';
+
 $LNG['vt_head']						= 'Poprawne pliki';
 $LNG['vt_filephp']					= 'Pliki php';
 $LNG['vt_filetpl']					= 'Pliki template';
@@ -1056,7 +1062,6 @@ $LNG['modul'][37]						= 'Baner';
 $LNG['modul'][26]						= 'Wyszukiwarka';
 $LNG['modul'][27]						= 'Badania techniczne';
 $LNG['modul'][28]						= 'Technologia';
-
 $LNG['mod_module']						= 'Moduły';
 $LNG['mod_info']						= 'Moduły w grze <br><font color="red">Admini mogą dalej używać nie aktywne opcje!</font>';
 $LNG['mod_active']						= 'AKTYWNY';
@@ -1111,6 +1116,8 @@ $LNG['uvs_new']							= 'Nowe uniwersum';
 $LNG['uvs_planets']						= 'Planety';
 $LNG['uvs_upload']						= 'Załaduj';
 $LNG['uvs_error']						= 'Niepoprawny lub błędny plik!';
+$LNG['uvs_reload']						= 'Reloading';
+$LNG['uvs_back']						= 'Back';
 
 //Update Page
 $LNG['up_weiter']						= 'Dalej';
@@ -1204,6 +1211,53 @@ $LNG['log_chatsettings']				= 'Ustawienia Chat';
 $LNG['log_tssettings']					= 'Teamspeak-Konfiguration';
 $LNG['log_uni_short']					= 'Uni';
 $LNG['log_universe']					= 'Universum';
+$LNG['log_disclamersettings']   		= 'Contacts';
+
+//Cronjobs
+$LNG['cronName']['referral']		= 'Referral Bonus';
+$LNG['cronName']['statistic']		= 'Statistics';
+$LNG['cronName']['daily']    		= 'Daily tasks';
+$LNG['cronName']['cleaner'] 		= 'Delete old data';
+$LNG['cronName']['inactive']		= 'Delete inactive';
+$LNG['cronName']['teamspeak']		= 'Teamspeak data update';
+
+
+$LNG['cronjob_id']  				= 'ID';
+$LNG['cronjob_name']				= 'Name';
+$LNG['cronjob_min'] 				= 'Minute';
+$LNG['cronjob_hours']				= 'Hour';
+$LNG['cronjob_dom'] 				= 'Day';
+$LNG['cronjob_month']				= 'Month';
+$LNG['cronjob_dow'] 				= 'Day of Week';
+$LNG['cronjob_class']				= 'class';
+$LNG['cronjob_nextTime']			= 'Next Time';
+$LNG['cronjob_inActive']			= 'Active';
+$LNG['cronjob_lock']				= 'locked';
+$LNG['cronjob_edit']				= 'Edit';
+$LNG['cronjob_delete']				= 'Delete';
+$LNG['cronjob_headline']			= 'Cronjob ID';
+$LNG['cronjob_new'] 				= 'Create new cron job';
+
+$LNG['cronjob_desc']				= 'Here follows the input of the invocation times for the Cronjobs. The conditions are and-connected, which means that the cron job will run only if all conditions are met. The simultaneous selection of individual values in "Wochentag" and "Tag" can taking may cause that the cronjob runs irregularly here the "Alle" option should be used when at least one condition selected.<br>"Alle" will take precedence and overrides the settings of the selection list.';
+$LNG['cronjob_desc_name']			= 'Freely selectable name to identify the Cronjobs.';
+$LNG['cronjob_desc_class']			= 'Input of the class to be invoked. Includes/classes/cronjobs/foo.class.php called "foo" must be entered.';
+
+$LNG['cronjob_error_name']			= 'There was no name enter!';
+$LNG['cronjob_error_min']			= 'It defined no minutes!';
+$LNG['cronjob_error_hours']			= 'It defined no hours!';
+$LNG['cronjob_error_month']			= 'It defined no months!';
+$LNG['cronjob_error_dow']			= 'No day of the week defined!';
+$LNG['cronjob_error_dom']			= 'It defined no days!';
+$LNG['cronjob_error_class']			= 'It specified no class!';
+$LNG['cronjob_error_filenotfound']	= 'The specified file was not found: ';
+$LNG['cronjob_selectall']			= 'All';
+
+$LNG['cronjob_lock']				= 'Locked';
+$LNG['cronjob_is_lock'] 			= 'Yes';
+$LNG['cronjob_is_unlock']			= 'No';
+
+$LNG['cronjob_inactive']			= 'Yes';
+$LNG['cronjob_active']  			= 'No';
 
 // Giveaway
 $LNG['ga_success']						= 'Udane!';
