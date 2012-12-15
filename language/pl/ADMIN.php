@@ -1,6 +1,6 @@
 <?php
 
-/**
+/**zmiana alojz 2-0102
  *  2Moons
  *  Copyright (C) 2011  Slaver
  *
