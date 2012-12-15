@@ -21,8 +21,6 @@ $LNG['shortNames'] = array (
 	218 => 'Avatar',
 	219 => 'Giga-Recykler',
 	220 => 'Inter. DM-Collector',
-	
-	
 
 	401 => 'Wyrzutnia Rakiet',
 	402 => 'L. Laser',
@@ -38,22 +36,26 @@ $LNG['shortNames'] = array (
 );
 
 $LNG['bonus'] = array(
-	'Attack'			=> '+%f%% Atak',
-	'Defensive'			=> '+%f%% Obrona',
-	'Shield'			=> '+%f%% Osłona',
-	'BuildTime'			=> '-%f%% Czas budowy',
-	'ResearchTime'		=> '-%f%% Czas badań',
-	'ShipTime'			=> '-%f%% Czas budowy okrętów',
-	'DefensiveTime'		=> '-%f%% Czas budowy obrony',
-	'Resource'			=> '+%f%% prędkość wydobycia',
-	'Energy'			=> '+%f%% produkcja energii',
-	'ResourceStorage'	=> '+%f%% wielkość magazynów',
-	'ShipStorage'		=> '+%f%% ładowność floty',
-	'FlyTime'			=> '+%f%% Czas lotu',
-	'FleetSlots'		=> '+%f%% Ilość możliwych flot',
-	'Planets'			=> '+%f%% Ilość planet',
+	'Attack'			=> 'Atak',
+	'Defensive'			=> 'Obrona',
+	'Shield'			=> 'Osłona',
+	'BuildTime'			=> 'Czas budowy',
+	'ResearchTime'		=> 'Czas badań',
+	'ShipTime'			=> 'Czas budowy okrętów',
+	'DefensiveTime'		=> 'Czas budowy obrony',
+	'Resource'			=> 'prędkość wydobycia',
+	'Energy'			=> 'produkcja energii',
+	'ResourceStorage'	=> 'wielkość magazynów',
+	'ShipStorage'		=> 'ładowność floty',
+	'FlyTime'			=> 'Czas lotu',
+	'FleetSlots'		=> 'Ilość możliwych flot',
+	'Planets'			=> 'Ilość planet',
+    'SpyPower'			=> 'Espionage power',
+	'Expedition'		=> 'Expeditions',
+	'GateCoolTime'		=> 'Jump gate charging time',
+	'MoreFound'			=> 'Expedition Found',
 );
-					
+
 $LNG['tech'] = array(
 	0 => 'Budynki',
   	1 => 'Kopalnia Metalu',
@@ -78,7 +80,6 @@ $LNG['tech'] = array(
  	42 => 'Falanga',
  	43 => 'Teleporter',
 
-
 	100 => 'Badania',
 	106 => 'Technologia Szpiegowska',
 	108 => 'Technologia Komputerowa',
@@ -100,7 +101,6 @@ $LNG['tech'] = array(
 	133 => 'Technologia Produkcji Deuterium',
 	199 => 'Rozwój Grawitonów',
   
-	
 	200 => 'Statki',
 202 => 'Mały Tranporter',
 203 => 'Duży Tranporter',
@@ -121,7 +121,6 @@ $LNG['tech'] = array(
 218 => 'Avatar',
 219 => 'Giga-Recykler',
 220 => 'Inter. DM-Collector',
-
 
 	400 => 'Obrona Planetarna',
 401 => 'Wyrzutnia Rakiet',
@@ -156,7 +155,6 @@ $LNG['tech'] = array(
 614 => 'Zdobywca',
 615 => 'Imperator',
 
-
 	700 => 'Premium dodatki',
 	701 => 'Optymalizacja Broni',
 	702 => 'Optymalizacja Osłony',
@@ -165,7 +163,7 @@ $LNG['tech'] = array(
 	705 => 'Optymalizacja Energii',
 	706 => 'Optymalizacja Badań',
 	707 => 'Koordynacja Floty',
-	
+
 	900 => 'Zasoby',
 	901 => 'Metal',
 	902 => 'Kryształ',
@@ -275,6 +273,7 @@ $LNG['shortDescription'] = array(
 706 => 'Skraca na jakiś czas długość badań o %s%%.',
 707 => 'Skraca czas lotu floty  o %s%%. Bonus działa tylko jakiś czas i nie ma wpływu na ekspedycje !.',
 );
+
 $LNG['longDescription'] = array(
 	1 => 'Metal to podstawowy budulec na twojej planecie. Dzięki rozwojowi kopalni możesz go wydobywać z głębszych pokładów gdzie jest go więcej !',
 	2 => 'Podstawowy budulec elementów elektronicznych. Kopalnie wymagają więcej energii niż metal bo obróbka kryształu jest bardziej skomplikowana. Kryształ jest potrzebny wszędzie tam gdzie elektronika poczynając od fabryki robotów a na najmniejszych statkach kończąc',
