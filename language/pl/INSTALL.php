@@ -101,7 +101,7 @@ $LNG['step2_db_done']			= 'Połączenie z bazą danych ustalone!';
 
 $LNG['step3_head']				= 'Instalacja tabeli';
 $LNG['step3_desc']				= 'Tabele utworzone, przejdź do następnego kroku.';
-$LNG['step3_db_error']			= 'Failed to create the database tables:';
+$LNG['step3_db_error']			= 'Błąd podczas łączenia do bazy danych:';
 
 $LNG['step4_head']				= 'Dane administratora';
 $LNG['step4_desc']				= 'Kreator instalacji utworzy teraz konto administratora, proszę podać hasło, nazwę użytkownika i adres email.';
