@@ -1,7 +1,12 @@
 <?php
 
-// Translated into English by QwataKayean . All rights reversed (C) 2012
-// 2Moons - Copyright (C) 2010-2012 Jän Kropke
+/**
+ *  Tarion.net
+ *  All rights reversed (C) 2012
+ *
+ *  Translated into Polish by Alojz and Gary (Tarion.net).
+ *
+ */
 
 // Site Title
 $LNG['siteTitleIndex']				= 'Index';
@@ -38,7 +43,6 @@ $LNG['buttonLostPassword']			= 'Przypomnienie Hasła?';
 $LNG['gameInformations']			= array(
 "<h1>Tarion to prywatny serwer</h1> strategiczno-ekonomiczna gry online czasu rzeczywistego w kosmosie. <br />",
 "Graj przeciwko innym graczom ! Nic nie musisz sciągać, grasz w przeglądarce ! W grze twoje postępy zależą tylko od Ciebie !.",
-
 );
 
 // Login
@@ -97,13 +101,11 @@ $LNG['registerWelcomePMSenderName']	= 'Administrator';
 $LNG['registerWelcomePMSubject']	= 'Witaj';
 $LNG['registerWelcomePMText']		= 'Witaj na %s!<br>Pierwsze to zbuduj to <b>"Elektorwnie słoneczną"</b>, energia jest wymagana by móc wydobywać zasoby. By zacząć budowe wejdź w menu budynki . I zbuduj 4-ty budynek od góry. Teraz możesz zacząc budować <b>"Kopalnie"</b>. Wróć do menu budynków i zacznij budować kopalnie metalu, potem kryształu. By budować okręty musisz najpierw zbudować <b>"Stocznie"</b>. Co jest wymagane, informacje znajdziesz w menu <b>"Technologie"</b>. Więcej informacji znajdziesz w <b>"Suporcie"</b>. Administracja Życzy Miłego grania oraz Wielkich podbojów!';
 
-//Vertify
-
+// Vertify
 $LNG['vertifyNoUserFound']			= 'Nieporpawne dane!';
 $LNG['vertifyAdminMessage']			= 'Użytkownik "%s" został aktywowany!';
 
-
-//lostpassword
+// Lostpassword
 $LNG['passwordInfo']				= 'Jeśli nie pamiętasz Hasła, należy podać nazwę użytkownika i adres E-mail, które zostały podane podczas zakładania Konta.';
 $LNG['passwordUsername']			= 'Użytkownik';
 $LNG['passwordMail']				= 'E-Mail';
@@ -124,26 +126,24 @@ $LNG['passwordChangedMailTitle']	= 'Nowe hasło Użytkownika: %s';
 $LNG['passwordBack']				= 'Powrót';
 $LNG['passwordNext']				= 'Następne';
 
-//case default
-
+// Case default
 $LNG['login_error_1']				= 'Błędna nazwa użytkownik i/lub hasło!';
 $LNG['login_error_2']				= 'Ktoś się zalogował na to Konto z innego komputera!';
 $LNG['login_error_3']				= 'Twoja sesja wygasła';
 $LNG['login_error_4']				= 'Wystąpiło błędne logowanie. Spróbuj ponownie!';
 
-//Rules
+// Rules
 $LNG['rulesHeader']					= 'Regulamin';
 
-//NEWS
+// NEWS
 $LNG['news_overview']				= 'Nowości';
 $LNG['news_from']					= 'Od %s Do %s';
 $LNG['news_does_not_exist']			= 'Brak nowych Informacji!';
 
-//Impressum
+// Impressum
 $LNG['disclamerLabelAddress']		= 'Adres Gry:';
 $LNG['disclamerLabelPhone']			= 'Numer kontaktowy:';
 $LNG['disclamerLabelMail']			= 'E-mail:';
 $LNG['disclamerLabelNotice']		= 'Dodatkowe Informacji';
 
-// Translated into Polish by Sirgomo&Alojz. All rights reversed (C) 2012
 ?>
