@@ -1,34 +1,14 @@
 <?php
 
 /**
- *  2Moons
- *  Copyright (C) 2011  Slaver
+ *  Tarion.net
+ *  All rights reversed (C) 2012
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ *  Translated into Polish by Alojz and Gary (Tarion.net).
  *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- * @package 2Moons
- * @author Slaver <slaver7@gmail.com>
- * @copyright 2009 Lucky <lucky@xgproyect.net> (XGProyecto)
- * @copyright 2011 Slaver <slaver7@gmail.com> (Fork/2Moons)
- * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.6.1 (2011-11-19)
- * @info $Id$
- * @link http://code.google.com/p/2moons/
  */
 
-
-$LNG['faq_overview']	= "FAQ";
+$LNG['faq_overview']				= "FAQ";
  
 $LNG['questions']					= array();
 $LNG['questions'][1]['category']	= 'Wskazówki dla nowych graczy';
@@ -42,6 +22,7 @@ $LNG['questions'][1][1]['body']		= <<<BODY
 <h3>C. Kopalnia Kryształu i Ekstraktor Deuterium:</h3>
 <p>Kryształ również jest bardzo ważnym elementem do budowy budynków, statków czy odkrywania nowych technologii. Jego wydobycie jest znacząco mniejsze, dlatego jedna jednostka kryształu odpowiada dwóm jednostkom metalu. <br>Deuterium to głównie paliwo dla floty, jest również wymagany podczas prowadzenia ważnych badań. Jego wydobycie jest również znacząco mniejsze w stosunku do metalu jak i kryształu!.</p>
 BODY;
+
 $LNG['questions'][1][2]['title']	= 'Część 2: Technologia i Flota';
 $LNG['questions'][1][2]['body']		= <<<BODY
 <p>Podczas rozbudowy swojego imperium będziesz zmuszony do konkurowania lub też współpracy w innymi graczami. Przyda się do tego zaawansowana technologia, jak również rozbudowana stocznia byś mógł tworzyć flotę godną twojego imperium, jak i obronę. Więcej informacji znajdziesz tutaj:</p>
@@ -52,6 +33,7 @@ $LNG['questions'][1][2]['body']		= <<<BODY
 <h3>C. Fabryka Robotów:</h3>
 <p>Fabryka robotów to jeden z ważniejszych budynków. Dzięki jego rozbudowie przyśpiesza budowa innych budynków na planecie!.</p>
 BODY;
+
 $LNG['questions'][1][3]['title']	= 'Część 3: Walka o Przetrwanie';
 $LNG['questions'][1][3]['body']		= <<<BODY
 <p>W tej części dowiesz się krótko jak bronić własną planetę i jak zarządzać własną flotą. Znajdziesz tutaj również informacje przydatne podczas interakcji z innymi graczami</p>
@@ -148,7 +130,6 @@ Najważniejsze budynki na księżycu:</p>
 <h3>D. Zniszczenie księżyca</h3>
 <p>Księżyc można zniszczyć za pomocą gwiazdy śmierci, to jedyna jednostka mogąca tego dokonać.</p>
 <p>W misjach wybierz misję zniszcz, i wyślij gwiazdy do pracy. Po zniszczeniu księżyca nie zostaje pole zniszczeń</p>
-
 BODY;
 
 $LNG['questions'][2][5]['title']	= 'Sojusz';
@@ -158,7 +139,4 @@ $LNG['questions'][2][5]['body']		= <<<BODY
 Pamiętaj że w nazwach nie możesz używać znaków specjalnych<br>
 <h3>B. Menu zarządzania sojuszem</h3>
 <p>Wszystkie działania związane z istnieniem sojuszu ustawiasz w panelu zarządzania sojuszem. Dotyczy to rang w sojuszu, wiadomości, przykładowych podań czy też polityki z innymi sojuszami. Ważne by osoba która zarządza sojuszem miałą zacięcie dyplomatyczne które pomaga nie tylko podczas wojen, ale również podczas szukania innych sojuszników, paktowania z innymi sojuszami itd.<br>
-
 BODY;
-
-// Translated into Polish by Sirgomo&Alojz. All rights reversed (C) 2012
