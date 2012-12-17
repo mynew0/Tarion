@@ -4,9 +4,8 @@
 
 <br><i>Pamiętajcie, że nikt z naszej ekipy nie będzie żądał od was podania hasła do konta!</i></center></b>
 
-
 <li>
-	<h1><center>Warunki Ogólne</center></h1>
+<h1><center>Warunki Ogólne</center></h1>
 <p>1. Każdy gracz na serwerze akceptuje regulamin i jest zobowiązany do jego bezwzględnego przestrzegania, a także uznania zwierzchnictwa administracji.</p>
 <p>2. Na serwerze obowiązuje kultura osobista. Przekleństwa i obrażanie innych graczy, okazywane na kanałach czatu, będą karane Banami(według Administacji). Wielokrotne niedostosowanie się do tego punktu może być karane (perm ban).</p>
 <p>3. Tarion.net to bezpłatna gra, zatem nie można mieć roszczeń do dostępności Gry.</p>
@@ -18,8 +17,8 @@
 <p>9. <b>Reklamowanie innych serwerów będzie karane (perm ban).</b></p>
 <p>10. Podszywanie się pod członków ekipy będzie karane wydaleniem z serwera (perm ban).</p>
 </li>
-	<li>
-		<h1><center>Konta Graczy</center></h1>
+<li>
+<h1><center>Konta Graczy</center></h1>
 <p>11. Wymiana kontami jest <b>ZABRONIONA</b>, wszelakie wymiany będą karane (perm ban).</p>
 <p>12. <b>Każdy gracz może mieć tylko jedno konto! -</b> chyba że dzielisz łączę na kilka osób, w takim wypadku musisz poinformować o tym Administrację. Ale niedozwolone jest przesyłanie między planetami surowców, floty itp. (perm ban, IP)</b></p>
 <p>13. Każdy gracz jest odpowiedzialny za swoje konto. Administracja nie odpowiada za zamiany, włamania i dzielone konta. Każdy z was sam musi zadbać o odpowiednie zabezpieczenie konta.</p>
@@ -31,9 +30,9 @@
 W innym wypadku jest dozwolone aby ktoś zastąpił Cię podczas gry logując się na twoje konto. Nim ktoś Cie zasąpi podczas gry powinieneś uprzedzić o tym Administracje (PW), podając czas zastępstwa, który jednak nie powinien przekraczać 48h. Ale podając dane dostępowe do twojego konta możesz je stracić. Administracja nie odpowiada za utracone konta w taki sposób!!
 Podczas gdy ktoś Cię zastępuje, ta osoba nie może wysyłać ataków!! Natomiast może budować jednostki, jak i nowe budynki. Może rownież uciekać flotą przed atakami(fleetsave).</p>
 <p>19. <b>Konto zasępstwo -</b> jeśli czas twojej nieobecności jest dłuższy, zaleca się aktywowanie trybu Urlop w panelu opcji(który trwa conajmniej do 3dni)!!</p>
-	</li>
-		<li>
-			<h1><center>Zasady Gry</center></h1>
+</li>
+<li>
+<h1><center>Zasady Gry</center></h1>
 <p>20. <b>Pushing -</b> Jako pushing rozumiane są wszelkie transporty surowców od gracza z mniejszą liczbą punktów do gracza silniejszego. Dotyczy to także wymuszeń. Wszelkie wysyłki surowców od gracza słabszego do silniejszego, nie będące handlem i/lub nie zwrócone przez silniejszego gracza w ciągu 24h będą rozumiane jako pushing. Pushing zaczyna się przy wysyłce ponad 500 jednostek. Wszelkie próby ominięcia tego punktu regulaminu są niedozwolone, a  stosowanie grozi (perm banem)!!</p>
 <p>21. <b>Pushing w sojuszu -</b> <u>dozwolony</u> jest tylko w momencie, gdy wysyłka jest uzasadniona np. gdy gracz stracił swoją flotę. Należy przed wysyłką jakichkolwiek surowców powiadomić o tym fakcie Administratora, który zbada zaistniałą sytuację. Należy poprzeć się dowodem w postaci raportu wojennego itp.</p>
 <p>22. <b>Pożyczka surowców -</b> jest <u>dozwolona</u> tylko wtedy gdy gracz, do którego był wysyłany transport odeśle równowartość sumy wysłanych surowców w ciągu 24 h. W przypadku zgłoszenia przez gracza niewywiązania się z umowy konto jest blokowane.</p>
@@ -61,9 +60,9 @@ Podczas gdy ktoś Cię zastępuje, ta osoba nie może wysyłać ataków!! Natomi
 <p>33. Wszelkie próby ominięcia zasady Pushing-u lub Bashing-u ujete w pkt. 20-29, będą rozpatrywane przez Administrację.</p>
 <p>34. System wiadomości w grze nie jest systemem korespondencyjnym a jedynie ułatwieniem dla graczy. Administracja ze względu na charakter strony ma prawo do przeglądania danych zamieszczonych w systemie.</p>
 </p>
-	</li>
-		<li>
-			<h1><center>Wymuszenia oraz Bugusing</center></h1>
+</li>
+<li>
+<h1><center>Wymuszenia oraz Bugusing</center></h1>
 <p>35. Obowiązkiem każdego gracza jest zgłoszenie błędów gry (bugi, literówki, złe działanie) na forum lub operatorowi gry (Administratorowi).</p>
 <p>36. Zamiana kont jest dozwolona.</p>
 <p>37. W momencie zmiany gracz nie ma prawa mieć pretensji o poprzednie konto.</p>
@@ -75,21 +74,21 @@ Podczas gdy ktoś Cię zastępuje, ta osoba nie może wysyłać ataków!! Natomi
 <p>43. <b>Wszelkie zwroty należy zgłaszać do 72 godzin od czasu wystąpienia błędu, w innych wypadkach sprawę uważa się za przedawnioną i Administracja nie musi jej rozpatrzyć.</b></p>
 <p>44. Groźby dotyczące mienia i osób prywatnych są także zabronione.</p>
 <p>45. Zabronione są wszystkie działania, których celem jest podszywanie się pod członków administracji gry, bądź powoływanie się na znajomość z jednym z członków administracji Tarion.net.</p>
-		</li>
-	<li>
-				<h1><center>Poza Grą</center></h1>
+</li>
+<li>
+<h1><center>Poza Grą</center></h1>
 <p>46. Pamiętaj to tylko gra, przenoszenie emocji do świata realnego, czy to poprzez czat, czy forum, jakiekolwiek grośby, wyzywanie itp... itd... jest niedozwolone !!! Kultura przedewszystkim, nie psuj zabawy innym swoim hamskim zachowaniem !</p>
-	</li>
-					<li>
-						<h1><center>Spam</center></h1>
+</li>
+<li>
+<h1><center>Spam</center></h1>
 <p>47. Spamowanie zabronione obojętnie w jakiej formie np.:
 <li>- czat<br/>
 - forum<br/>
 - prywatne wiadomości</li></p>
 <p>48. Ktoś Cie spamuje, daj znać Administracji!!</p>
-					</li>
-						<li>
-						<h1><center>Podsumowanie</center></h1>
+</li>
+<li>
+<h1><center>Podsumowanie</center></h1>
 <p>49. Regulamin dotyczy każdego użytkownika!</p>
 <p>50. Praca członków ekipy ma charakter charytatywny, nie otrzymuje on za poświęcony czas żadnego wynagrodzenia, więc należy się do niego zwracać z należytym szacunkiem.</p>
 <p>51. Członkowie ekipy mają prawo do chwili przerwy.</p>
@@ -102,12 +101,11 @@ Podczas gdy ktoś Cię zastępuje, ta osoba nie może wysyłać ataków!! Natomi
 <p>58. Administratora obowiązuje ten sam regulamin co gracza, jednak by móc wykonywać swoje obowiązki, wszelkie skargi w kierunku danego Administratora rozpatruje Head Admin.</p>
 <p>59. Administrator w wyjątkowych sytuacjach, jeżeli dopatrzy się łamania regulaminu, Prawa Polskiego może zablokować dowolną ilość kont w grze/forum z danego IP, bez podania przyczyny.</p>
 <p>60. Decyzje Administratorów są ostateczne i niepodważalne.</b></p>
-	</li>
-						
+</li>
+
 <center><b>Przypominamy, że serwer jest własnością prywatną i zdanie właściciela jest ostateczne i niepodważalne.
 <br>Przypominam, że regulamin może ulec zmianie, radzimy zaglądać tu możliwie często. Ostatnia aktualizacja 06.08.2012.
 <br>
 <br>
 Regulamin przygotowany przez Administrację Tarion.net. All rights reversed (C) 2012</b></center>
-						
 </ul>
