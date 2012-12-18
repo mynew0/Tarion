@@ -9,11 +9,11 @@
  */
 
 // Site Title
-$LNG['siteTitleIndex']				= 'Index';
+$LNG['siteTitleIndex']				= 'Home';
 $LNG['siteTitleRegister']			= 'Rejstracja';
 $LNG['siteTitleScreens']			= 'Screenshots';
 $LNG['siteTitleBanList']			= 'Zbanowani';
-$LNG['siteTitleBattleHall']			= 'Zbanowani';
+$LNG['siteTitleBattleHall']			= 'Ranking PvP';
 $LNG['siteTitleRules']				= 'Regulamin';
 $LNG['siteTitleNews']				= 'News';
 $LNG['siteTitleDisclamer']			= 'Kontakt';
@@ -21,16 +21,16 @@ $LNG['siteTitleLostPassword']		= 'Przypomnienie Hasła?';
 
 // Menu
 $LNG['forum']						= 'Forum';
-$LNG['menu_index']					= 'Index';
+$LNG['menu_index']					= 'Home';
 $LNG['menu_news']					= 'News';
 $LNG['menu_rules']					= 'Regulamin';
 $LNG['menu_banlist']				= 'Zbanowani';
-$LNG['menu_battlehall']				= 'Zbanowani';
+$LNG['menu_battlehall']				= 'Ranking PvP';
 $LNG['menu_disclamer']				= 'Kontakt';
-$LNG['menu_register']				= 'Rejstracja';
+$LNG['menu_register']				= 'Rejestracja';
 
 // Universe select
-$LNG['chose_a_uni']					= 'Wybierz Universe';
+$LNG['chose_a_uni']					= 'Wybierz Universum';
 $LNG['universe']					= 'Universe';
 $LNG['uni_closed']					= ' (closed)';
 
@@ -64,15 +64,15 @@ $LNG['loginServerDesc']				= '%s prywatnym serwerze. Wszystko czego potrzebujesz
 // Register
 $LNG['registerFacebookAccount']		= 'Konto na Facebook-u';
 $LNG['registerUsername']			= 'Użytkownik';
-$LNG['registerUsernameDesc']		= 'Nazwa użytkownika musi mieć co najmniej 3 i maksymalnie 25 znaków, może składać się z cyfr, liter, podkreśleń i spacji';
+$LNG['registerUsernameDesc']		= 'Nazwa użytkownika musi mieć min. 3 i maks. 25 znaków, może składać się z cyfr, liter, podkreśleń i spacji';
 $LNG['registerPassword']			= 'Hasło';
-$LNG['registerPasswordDesc']		= 'Hasło musi mieć co najmniej 8 znaków.';
-$LNG['registerPasswordReplay']		= 'Wpisz Hasło';
-$LNG['registerPasswordReplayDesc']	= 'Powtórz Hasło.';
+$LNG['registerPasswordDesc']		= 'Hasło musi mieć co najmniej 8 znaków';
+$LNG['registerPasswordReplay']		= 'Powtórz Hasło';
+$LNG['registerPasswordReplayDesc']	= 'Podaj ponownie Hasło';
 $LNG['registerEmail']				= 'E-Mail';
-$LNG['registerEmailDesc']			= 'Wpisz swój adres E-mail!';
-$LNG['registerEmailReplay']			= 'Podaj adres E-Mail';
-$LNG['registerEmailReplayDesc']		= 'Powtórz adres E-mail, dla bezpieczeństwa!';
+$LNG['registerEmailDesc']			= 'Wpisz swój adres E-mail';
+$LNG['registerEmailReplay']			= 'Powtórz E-Mail';
+$LNG['registerEmailReplayDesc']		= 'Podaj ponownie E-mail';
 $LNG['registerLanguage']			= 'Język';
 $LNG['registerReferral']			= 'Zaproszony przez :';
 $LNG['registerCaptcha']				= 'Podaj Kod';
@@ -88,13 +88,13 @@ $LNG['registerErrorUniClosed']		= 'Rejestracja jest zamknięta!';
 $LNG['registerErrorUsernameEmpty']	= 'Musisz podać nazwę użytkownika!';
 $LNG['registerErrorUsernameChar']	= 'W nazwie użytkownika są dozwolone tylko liczby, litery i puste znaki, ewentualnie, _, - !';
 $LNG['registerErrorUsernameExist']	= 'Ta nazwa użytkownika jest zajęta!';
-$LNG['registerErrorPasswordLength']	= 'Hasło musi mieć conajmniej 6 znaków!';
+$LNG['registerErrorPasswordLength']	= 'Hasło musi mieć co najmniej 8 znaków';
 $LNG['registerErrorPasswordSame']	= 'Podałeś dwa różne hasła';
-$LNG['registerErrorMailEmpty']		= 'Musisz podać adres E-mailowy!';
-$LNG['registerErrorMailInvalid']	= 'Błędny adres E-mail!';
-$LNG['registerErrorMailSame']		= 'Podałeś dwa różne adresy email';
+$LNG['registerErrorMailEmpty']		= 'Musisz podać adres E-mailowy';
+$LNG['registerErrorMailInvalid']	= 'Błędny adres E-mail';
+$LNG['registerErrorMailSame']		= 'Podałeś dwa różne adresy E-mail';
 $LNG['registerErrorMailExist']		= 'Ten adres E-mail jest zajęty!';
-$LNG['registerErrorRules']			= 'Musisz zaakceptować regulamin';
+$LNG['registerErrorRules']			= 'Musisz zaakceptować Regulamin';
 $LNG['registerErrorCaptcha']		= 'Błędny Kod ';
 
 $LNG['registerMailVertifyTitle']	= 'Wiadomość aktywacji konta wysłana: %s';
@@ -126,7 +126,7 @@ $LNG['passwordErrorOnePerDay']		= 'Hasło dla tego Konta Użytkownika w ciągu o
 $LNG['passwordValidMailTitle']		= 'Zapomniałem hasła do gry: %s';
 $LNG['passwordValidMailSend']		= 'Otrzymasz wiadomość E-mail z dalszymi informacjami.';
 
-$LNG['passwordValidInValid']		= 'iepoprawne dane!';
+$LNG['passwordValidInValid']		= 'Niepoprawne dane!';
 $LNG['passwordChangedMailSend']		= 'Otrzymasz wiadomość E-mail z nowym hasłem.';
 $LNG['passwordChangedMailTitle']	= 'Nowe hasło Użytkownika: %s';
 
