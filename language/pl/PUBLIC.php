@@ -41,8 +41,15 @@ $LNG['buttonLostPassword']			= 'Przypomnienie Hasła?';
 
 // Start
 $LNG['gameInformations']			= array(
-"<h1>Tarion to prywatny serwer</h1> strategiczno-ekonomiczna gry online czasu rzeczywistego w kosmosie. <br />",
-"Graj przeciwko innym graczom ! Nic nie musisz sciągać, grasz w przeglądarce ! W grze twoje postępy zależą tylko od Ciebie !.",
+"Dołącz do najlepszych już teraz i zostań najpotężniejszym z nich.<br/><br/>
+
+Tarion.net jest darmową grą strategiczno-ekonomiczno osadzoną w realiach wszechogarniającego kosmosu.<br/>
+To najlepszy sposób na nudę, setki a nawet tysiące graczy spotyka się w świecie aby rozgrywać wspaniałe boje kosmiczne. <br/>
+Grając u nas poznasz masę graczy, zawiążesz sojusze, stworzysz swoje niepowtarzalne i ogromne Imperium, którego potęga bedzie siać postrach wobec twoich wrogów.<br/><br/>
+
+Urokliwy klimat jaki proponuje Tarion w Galaktycznym świecie jest nie do odrzucenia. Stań się kosmicznym władcą. Niech inni gracze drżą na samą myśl o Tobie!<br/><br/>
+
+Nie czekaj załóż Konto już TERAZ! To tylko parę minut! Galaktyka potrzebuję Cię.",
 );
 
 // Login
