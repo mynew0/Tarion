@@ -358,16 +358,16 @@ $LNG['bd_interrupt']						= 'Przerwij';
 $LNG['bd_cancel']							= 'anuluj';
 $LNG['bd_working']							= 'Pracuje';
 $LNG['bd_build']							= 'Zbuduj';
-$LNG['bd_build_next_level']					= 'Rozbuduj na level ';
+$LNG['bd_build_next_level']					= 'Rozbuduj na poziom ';
 $LNG['bd_tech']								= 'Zbadaj';
-$LNG['bd_tech_next_level']					= 'Zbadaj na level ';
+$LNG['bd_tech_next_level']					= 'Zbadaj na poziom ';
 $LNG['bd_add_to_list']						= 'Dodaj do kolejki';
 $LNG['bd_no_more_fields']					= 'Brak miejsca na planecie!';
 $LNG['bd_remaining']						= 'Pozostało:';
 $LNG['bd_lab_required']						= 'Musisz zbudować najpierw laboratorium badawcze!';
 $LNG['bd_building_lab']						= 'Rozbuduj laboratorium!';
-$LNG['bd_max_lvl']							= '(Max. Level: %s)';
-$LNG['bd_lvl']								= 'Level';
+$LNG['bd_max_lvl']							= '(Max. Poziom: %s)';
+$LNG['bd_lvl']								= 'Poziom';
 $LNG['bd_research']							= 'Badania';
 $LNG['bd_shipyard_required']				= 'Musisz najpierw zbudować stocznie!';
 $LNG['bd_building_shipyard']				= 'Fabryka nanitów lub stocznia jest rozbudowywana!';
@@ -382,10 +382,10 @@ $LNG['bd_continue']							= 'Kontynułuj';
 $LNG['bd_price_for_destroy']				= 'Koszt zniszczenia:';
 $LNG['bd_ready']							= 'Gotowe';
 $LNG['bd_finished']							= 'Skończone';
-$LNG['bd_maxlevel']							= 'Maksymalny level';
+$LNG['bd_maxlevel']							= 'Maksymalny poziom';
 $LNG['bd_on']								= 'on';
 $LNG['bd_max_builds']						= 'Maksymalny Poziom Budynku [%d]';
-$LNG['bd_next_level']						= 'Następny level:';
+$LNG['bd_next_level']						= 'Następny poziom:';
 $LNG['bd_need_engine']						= 'Wymaga  <font color="#FF0000">%s</font> %s więcej';
 $LNG['bd_more_engine']						= 'Produkuje <font color="#00FF00">%s</font> %s więcej';
 $LNG['bd_jump_gate_action']					= 'Skocz do';
@@ -402,7 +402,7 @@ $LNG['sys_buildlist_fail']					= 'Nie udało się wykonać zadań z listy budowy
 
 // RESOURCES
 $LNG['rs_amount']							= 'Ilość';
-$LNG['rs_lvl']								= 'level';
+$LNG['rs_lvl']								= 'poziom';
 $LNG['rs_production_on_planet']				= 'Produkacja zasobów na planecie "%s"';
 $LNG['rs_basic_income']						= 'Podstawowy przychód';
 $LNG['rs_storage_capacity']					= 'Wielkość magazynów';
@@ -414,9 +414,9 @@ $LNG['rs_ress_bonus']						= 'Bonus(Officer/DM-Bonus):';
 
 // OFFICIERS
 $LNG['of_recruit']							= 'Zatrudnij';
-$LNG['of_max_lvl']							= 'Max. Level';
+$LNG['of_max_lvl']							= 'Max. Poziom';
 $LNG['of_offi']								= 'Oficerowie';
-$LNG['of_lvl']								= 'Level';
+$LNG['of_lvl']								= 'Poziom';
 $LNG['of_dm_trade']							= '%s - Store';
 $LNG['of_still']							= 'still';
 $LNG['of_active']							= 'aktywny';
@@ -438,7 +438,7 @@ $LNG['tr_exchange']							= 'Wymień';
 
 // TECHTREE
 $LNG['tt_requirements']						= 'Wymagania';
-$LNG['tt_lvl']								= 'Level ';
+$LNG['tt_lvl']								= 'Poziom ';
 
 // INFOS
 $LNG['in_jump_gate_done']					= 'Teleport został użyty, następny skok mozliwy za: ';
@@ -707,8 +707,8 @@ $LNG['al_diplo_same_alliance']				= 'Nie można uruchomić paktu ze sobą!';
 $LNG['al_diplo_no_alliance']				= 'Nie masz sojusz z %s!';
 $LNG['al_diplo_info']						= '<p>Na tej stronie sojuszu, będzie panel zarządzania. </ P> Tutaj znajdziesz wyjaśnienie różnych typów sojuszu.[TODO: Link z FAQ]</p>';
 $LNG['al_leave_ally']						= 'Napewno chcesz opuścić sojusz?';
-$LNG['al_default_leader_name']				= 'Leader';
-$LNG['al_rank_name']						= 'Name';
+$LNG['al_default_leader_name']				= 'Przywódca';
+$LNG['al_rank_name']						= 'Tytuł';
 $LNG['al_rank_desc']['MEMBERLIST']			= 'Zobacz listę członków';
 $LNG['al_rank_desc']['ONLINESTATE']			= 'Kto jest online';
 $LNG['al_rank_desc']['TRANSFER']			= 'Może zotać liderem';
