@@ -175,7 +175,7 @@ $LNG['tech'] 			= array(
 	901					=> 'Metal',
 	902					=> 'Kryształ',
 	903					=> 'Deuterium',
-	911					=> 'Energia',
+	911					=> 'Energi',
 	921					=> 'Dark Metter',
 );
 
